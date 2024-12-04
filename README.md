@@ -1,4 +1,4 @@
-# Comprehensive Blockchain and Ethereum Learning Curriculum
+# UNOFFICIAL CERTIFIED BLOCKCHAIN PRACTIONER STUDY GUIDE
 
 ## Module 1: Understanding the Basics
 

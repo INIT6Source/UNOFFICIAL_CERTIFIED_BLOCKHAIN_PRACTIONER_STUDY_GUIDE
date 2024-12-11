@@ -4,14 +4,11 @@
 
 ### 1. Nodes
 
-#### Overview
-
-Nodes server the foundation of a blockchain network. They're individual computers or devices that participate in the network by maintaining, validating, and broadcasting the distributed ledger. Nodes work collaboratively to ensure the integrity, security, and synchronization of the blockchain, making it decentralized and resilient against failure and attack.
+Nodes serve as the foundation of a blockchain network. They're individual computers or devices that participate in the network by maintaining, validating, and broadcasting the distributed ledger. Nodes work collaboratively to ensure the integrity, security, and synchronization of the blockchain, making it decentralized and resilient against failure and attack.
 
 #### Types of Nodes
 
-- **Full Nodes**:
-  - **Description**: Store the entire history of the blockchain, including all blocks and transactions since the genesis block.
+- **Full Nodes**: Store the entire history of the blockchain, including all blocks and transactions since the genesis block.
   - **Features**:
     - **Complete Ledger Maintenance**: Download and verify every block and transaction, ensuring they comply with the consensus rules.
     - **Independent Validation**: Independently validate transactions and blocks without relying on external sources.
@@ -20,8 +17,7 @@ Nodes server the foundation of a blockchain network. They're individual computer
     - **Bitcoin Core**: The reference implementation for the Bitcoin network.
     - **Geth (Go Ethereum)**: A widely used Ethereum client that can operate as a full node.
 
-- **Light Nodes**:
-  - **Description**: Download only the block headers instead of the entire blockchain, relying on full nodes for data.
+- **Light Nodes**: Download only the block headers instead of the entire blockchain, relying on full nodes for data.
   - **Features**:
     - **Reduced Storage Requirements**: Require significantly less disk space and bandwidth.
     - **Faster Sync Times**: Quickly synchronize with the network.
@@ -30,8 +26,7 @@ Nodes server the foundation of a blockchain network. They're individual computer
     - **Mobile Wallets**: Lightweight wallets on smartphones, such as Trust Wallet.
     - **Web3 Browsers**: Browsers like MetaMask that allow interaction with DApps without running a full node.
 
-- **Miner/Validator Nodes**:
-  - **Description**: Specialized nodes responsible for creating new blocks and securing the network.
+- **Miner/Validator Nodes**: Specialized nodes responsible for creating new blocks and securing the network.
   - **Features**:
     - **Block Production**: Propose and add new blocks to the blockchain.
     - **Consensus Participation**: Actively participate in the consensus mechanism (e.g., Proof of Work (PoW), Proof of Stake (PoW)).
@@ -57,8 +52,6 @@ Nodes server the foundation of a blockchain network. They're individual computer
 ---
 
 ### 2. Mining
-
-#### Overview
 
 Mining is the process by which transactions are validated and added to a blockchain in Proof-of-Work (PoW) systems. Miners compete to solve complex mathematical puzzles, and the first to solve the puzzle earns the right to add a new block to the blockchain and receive cryptocurrency rewards.
 
@@ -108,32 +101,26 @@ Mining is the process by which transactions are validated and added to a blockch
 
 ### 3. Consensus Algorithms
 
-#### Overview
-
 Consensus algorithms enable distributed systems, like blockchains, to agree on a single source of truth. They ensure that all nodes in the network maintain a consistent ledger, despite potential failures or malicious actors.
 
 #### Common Consensus Algorithms
 
-- **Proof of Work (PoW)**:
-  - **Mechanism**: Miners solve computational puzzles to validate transactions and create new blocks.
+- **Proof of Work (PoW)**: Miners solve computational puzzles to validate transactions and create new blocks.
   - **Advantages**: High security due to the computational difficulty of attacks.
   - **Disadvantages**: Energy-intensive and environmentally unsustainable.
   - **Used By**: Bitcoin, Litecoin, and Ethereum (prior to The Merge).
 
-- **Proof of Stake (PoS)**:
-  - **Mechanism**: Validators lock up cryptocurrency (stake) to participate in block validation.
+- **Proof of Stake (PoS)**: Validators lock up cryptocurrency (stake) to participate in block validation.
   - **Advantages**: Energy-efficient and scalable.
   - **Disadvantages**: Potential for wealth concentration and centralization.
   - **Used By**: Ethereum (post-Merge), Cardano, Polkadot.
 
-- **Delegated Proof of Stake (DPoS)**:
-  - **Mechanism**: Stakeholders vote for delegates who validate transactions on their behalf.
+- **Delegated Proof of Stake (DPoS)**: Stakeholders vote for delegates who validate transactions on their behalf.
   - **Advantages**: Higher transaction throughput.
   - **Disadvantages**: Increased centralization risk.
   - **Used By**: Burstcoin (now Signum).
 
-- **Proof of Elapsed Time (PoET)**
-  - **Mechanism**: Validators are assigned a random "sleep time," and the one whose timer finishes first earns the right to produce the next block.
+- **Proof of Elapsed Time (PoET)**: Validators are assigned a random "sleep time," and the one whose timer finishes first earns the right to produce the next block.
   - **Advantages**: Fairly distributes block production without excessive energy consumption.
   - **Disadvantages**: Relies on specialized hardware for generating trusted wait times.
   - **Used By**: Hyperledger Sawtooth (Sawtooth Lake).
@@ -163,8 +150,6 @@ Consensus algorithms enable distributed systems, like blockchains, to agree on a
 
 ### 4. Transactions
 
-#### Overview
-
 Transactions are the actions that change the state of the blockchain. They can involve transferring cryptocurrency between accounts or invoking functions on smart contracts. Once included in a block and confirmed, transactions become part of the immutable ledger.
 
 #### Key Components
@@ -179,12 +164,9 @@ Transactions are the actions that change the state of the blockchain. They can i
   - **Gas Price**: The cost per unit of gas, often in Gwei.
   - **Gwei**: 1 Gwei = 1,000,000,000 Wei (the smallest unit of Ether, analogous to how a penny is a fraction of a dollar). 1 Ether = 1,000,000,000 Gwei
   - **Total Fee**: Gas used multiplied by the gas price.
-- **Nonce**:
-  - A counter that represents the number of transactions sent from an address.
-- **Signature**:
-  - Digital signature created using the sender's private key.
-- **Data Field**:
-  - Contains additional data, such as function calls to smart contracts.
+- **Nonce**: A counter that represents the number of transactions sent from an address.
+- **Signature**: Digital signature created using the sender's private key.
+- **Data Field**: Contains additional data, such as function calls to smart contracts.
 
 #### Transaction Lifecycle
 
@@ -216,8 +198,6 @@ Transactions are the actions that change the state of the blockchain. They can i
 ---
 
 ### 5. Forks
-
-#### Overview
 
 Forks in blockchain occur when the network splits into two separate chains due to changes in protocol or disagreements among participants. Forks are essential for implementing upgrades, introducing new features, or fixing critical issues.
 
@@ -270,8 +250,6 @@ Forks in blockchain occur when the network splits into two separate chains due t
 ---
 
 ### 6. Smart Contracts
-
-#### Overview
 
 Smart contracts are programs stored on a blockchain that execute automatically when predetermined conditions are met. They facilitate, verify, and enforce the negotiation or performance of an agreement without the need for intermediaries.
 
@@ -326,8 +304,6 @@ Smart contracts are programs stored on a blockchain that execute automatically w
 
 ### 7. Decentralized Apps (DApps)
 
-#### Overview
-
 DApps are applications that run on a decentralized network, utilizing smart contracts for their backend logic and a user interface for the frontend. They offer services similar to traditional apps but operate without centralized servers.
 
 #### Characteristics
@@ -339,17 +315,13 @@ DApps are applications that run on a decentralized network, utilizing smart cont
 
 #### Categories
 
-- **Finance (DeFi)**:
-  - **Description**: Financial services without intermediaries.
+- **Finance (DeFi)**: Financial services without intermediaries.
   - **Examples**: Aave, Compound.
-- **Gaming**:
-  - **Description**: Games with blockchain-based assets.
+- **Gaming**: Games with blockchain-based assets.
   - **Examples**: Decentraland, CryptoKitties.
-- **Social Media**:
-  - **Description**: Platforms governed by users.
+- **Social Media**: Platforms governed by users.
   - **Examples**: Mastodon, Steemit.
-- **Marketplaces**:
-  - **Description**: Platforms for trading digital goods.
+- **Marketplaces**: Platforms for trading digital goods.
   - **Examples**: OpenSea, Rarible.
 
 #### Challenges
@@ -370,8 +342,6 @@ DApps are applications that run on a decentralized network, utilizing smart cont
 ---
 
 ### 8. IPFS Fundamentals
-
-#### Overview
 
 IPFS is a distributed system for storing and accessing files, websites, applications, and data. It uses content-addressed systems instead of the traditional location-addressed approach used by HTTP, identifying content through its hash.
 
@@ -418,8 +388,6 @@ IPFS is a distributed system for storing and accessing files, websites, applicat
 
 ### 1. About Ethereum
 
-#### Overview
-
 Ethereum is a decentralized, open-source blockchain platform that enables the creation and execution of smart contracts and decentralized applications (DApps). Launched in 2015 by Vitalik Buterin and a team of co-founders, Ethereum extends the capabilities of blockchain technology beyond simple value transfers, allowing developers to build complex, programmable applications.
 
 Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fees and computational services on the network. Ethereum aims to create a more accessible, transparent, and decentralized internet, often referred to as Web3.
@@ -454,21 +422,18 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
     - **Purpose**: A multi-token standard supporting both fungible and non-fungible tokens.
     - **Usage**: Gaming assets, batch transfers, and complex asset management.
 
-- **Decentralized Finance (DeFi)**:
-  - **Description**: Financial services built on blockchain technology, removing intermediaries.
+- **Decentralized Finance (DeFi)**: Financial services built on blockchain technology, removing intermediaries.
   - **Components**:
     - Lending platforms, decentralized exchanges (DEXs), stablecoins.
   - **Significance**:
     - Democratizes access to financial services.
     - Offers transparency and control to users.
 
-- **Non-Fungible Tokens (NFTs)**:
-  - **Definition**: Unique digital assets that represent ownership of specific items or content.
+- **Non-Fungible Tokens (NFTs)**: Unique digital assets that represent ownership of specific items or content.
   - **Applications**:
     - Art, music, virtual real estate, collectibles, and certifications.
 
-- **Decentralized Autonomous Organizations (DAOs)**:
-  - **Definition**: Organizations governed by smart contracts and community consensus.
+- **Decentralized Autonomous Organizations (DAOs)**: Organizations governed by smart contracts and community consensus.
   - **Function**:
     - Enable decentralized decision-making.
     - Manage funds and resources transparently.
@@ -482,8 +447,7 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
     - Core protocol development.
     - Creation of development tools and frameworks.
     - Building DApps across various sectors.
-  - **Resources**:
-    - Extensive documentation, tutorials, and open-source libraries.
+  - **Resources**: Extensive documentation, tutorials, and open-source libraries.
 
 - **Users**:
   - **Global Reach**: Millions use Ethereum for transactions, DApps, and investments.
@@ -493,10 +457,8 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
     - **Hardware Wallets**: Ledger, Trezor for secure storage.
 
 - **Enterprises**:
-  - **Adoption**:
-    - Companies leverage Ethereum for supply chain, identity management, and more.
-  - **Enterprise Ethereum Alliance (EEA)**:
-    - A group of organizations working to advance enterprise-grade Ethereum solutions.
+  - **Adoption**: Companies leverage Ethereum for supply chain, identity management, and more.
+  - **Enterprise Ethereum Alliance (EEA)**: A group of organizations working to advance enterprise-grade Ethereum solutions.
 
 - **Layer 2 Solutions**:
   - **Purpose**: Address scalability and transaction speed issues.
@@ -513,20 +475,17 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
     - **The Merge**: Transition from Proof of Work (PoW) to Proof of Stake (PoS).
     - **Sharding**: Splitting the network into shards to increase capacity.
 
-- **EIPs (Ethereum Improvement Proposals)**:
-  - **Definition**: Community-driven proposals for protocol enhancements.
+- **EIPs (Ethereum Improvement Proposals)**: Community-driven proposals for protocol enhancements.
   - **Process**:
     - Open discussion among developers and stakeholders.
     - Requires consensus for implementation.
 
 - **Recent Upgrades**:
-  - **The Merge**:
-    - **Description**: Unified the Ethereum Mainnet with the Beacon Chain PoS system.
+  - **The Merge**: Unified the Ethereum Mainnet with the Beacon Chain PoS system.
     - **Impact**:
       - Reduced energy consumption by ~99.95%.
       - Paved the way for future scalability improvements.
-  - **EIP-1559**:
-    - **Description**: Modified the fee market mechanism.
+  - **EIP-1559**: Modified the fee market mechanism.
     - **Features**:
       - Introduced a base fee burned per transaction.
       - Improved transaction fee predictability.
@@ -544,28 +503,22 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
 
 ### 2. Ethereum Virtual Machine (EVM)
 
-#### Overview
-
 The Ethereum Virtual Machine (EVM) is the runtime environment for smart contracts in Ethereum. It acts as a global, decentralized computer that executes code exactly as intended, providing a consistent and secure environment for smart contract execution across all nodes in the network.
 
 #### Characteristics
 
-- **Turing-Complete**:
-  - **Definition**: Capable of performing any computation given enough resources.
+- **Turing-Complete**: Capable of performing any computation given enough resources.
   - **Implication**: Allows developers to implement complex logic and algorithms in smart contracts.
   
 - **Isolation**:
   - **Sandboxed Environment**:
     - Smart contracts run in a secure, isolated environment.
     - Prevents smart contracts from accessing the underlying system or interfering with each other.
-  - **Security**:
-    - Protects the network from malicious code execution.
+  - **Security**: Protects the network from malicious code execution.
 
 - **Deterministic Execution**:
-  - **Consistency**:
-    - Ensures that the same operations produce the same results on every node.
-  - **Importance**:
-    - Critical for consensus across the decentralized network.
+  - **Consistency**: Ensures that the same operations produce the same results on every node.
+  - **Importance**: Critical for consensus across the decentralized network.
 
 - **Stack-Based Architecture**:
   - **Execution Model**:
@@ -593,22 +546,16 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
 #### Gas Mechanism
 
 - **Purpose of Gas**:
-  - **Resource Management**:
-    - Measures the computational effort required for operations.
-  - **Security**:
-    - Prevents infinite loops and resource exhaustion attacks.
+  - **Resource Management**: Measures the computational effort required for operations.
+  - **Security**: Prevents infinite loops and resource exhaustion attacks.
 
 - **Gas Limit**:
-  - **Transaction Level**:
-    - Maximum amount of gas a user is willing to spend on a transaction.
-  - **Block Level**:
-    - The maximum gas allowed per block, limiting the number of transactions.
+  - **Transaction Level**: Maximum amount of gas a user is willing to spend on a transaction.
+  - **Block Level**: The maximum gas allowed per block, limiting the number of transactions.
 
 - **Gas Price**:
-  - **Definition**:
-    - The amount of Ether a user is willing to pay per unit of gas.
-  - **Transaction Fee Calculation**:
-    - `Transaction Fee = Gas Used × Gas Price`.
+  - **Definition**: The amount of Ether a user is willing to pay per unit of gas.
+  - **Transaction Fee Calculation**: `Transaction Fee = Gas Used × Gas Price`.
 
 - **EIP-1559 Fee Model**:
   - **Base Fee**:
@@ -630,15 +577,11 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
 
 ### 3. Ethereum Tokens
 
-#### Overview
-
 Ethereum tokens are digital assets built on top of the Ethereum blockchain, following specific standards that ensure compatibility and interoperability across the ecosystem. Tokens can represent anything from currencies and loyalty points to assets and access rights.
 
 #### Token Standards
 
-- **ERC-20 (Fungible Tokens)**:
-  - **Description**:
-    - Standard for fungible tokens, where each token unit is identical.
+- **ERC-20 (Fungible Tokens)**: Standard for fungible tokens, where each token unit is identical.
   - **Key Functions**:
     - `totalSupply()`: Returns the total token supply.
     - `balanceOf(address)`: Returns the account balance.
@@ -646,31 +589,23 @@ Ethereum tokens are digital assets built on top of the Ethereum blockchain, foll
     - `approve(address, uint256)`: Allows an address to withdraw from your account multiple times.
     - `transferFrom(address, address, uint256)`: Transfers tokens on behalf of the owner.
     - `allowance(address, address)`: Returns the remaining tokens that the spender is allowed to spend.
-  - **Use Cases**:
-    - Cryptocurrencies, utility tokens, governance tokens.
+  - **Use Cases**: Cryptocurrencies, utility tokens, governance tokens.
 
-- **ERC-721 (Non-Fungible Tokens)**:
-  - **Description**:
-    - Standard for non-fungible tokens (NFTs), where each token is unique.
+- **ERC-721 (Non-Fungible Tokens)**: Standard for non-fungible tokens (NFTs), where each token is unique.
   - **Key Functions**:
     - `ownerOf(uint256)`: Returns the owner of a specific token ID.
     - `transferFrom(address, address, uint256)`: Transfers ownership of a token ID.
     - `approve(address, uint256)`: Approves another address to transfer a specific token ID.
     - `getApproved(uint256)`: Gets the approved address for a token ID.
     - `setApprovalForAll(address, bool)`: Approves or revokes an operator to manage all tokens.
-  - **Use Cases**:
-    - Digital art, collectibles, real estate, identity verification.
+  - **Use Cases**: Digital art, collectibles, real estate, identity verification.
 
-- **ERC-1155 (Multi-Token Standard)**:
-  - **Description**:
-    - Standard that allows a single contract to manage multiple token types.
-    - Supports both fungible and non-fungible tokens.
+- **ERC-1155 (Multi-Token Standard)**: Standard that allows a single contract to manage multiple token types. Supports both fungible and non-fungible tokens.
   - **Key Functions**:
     - `balanceOf(address, uint256)`: Returns the balance of a token ID for an address.
     - `safeTransferFrom(address, address, uint256, uint256, bytes)`: Transfers tokens safely.
     - `safeBatchTransferFrom(address, address, uint256[], uint256[], bytes)`: Batch transfers.
-  - **Use Cases**:
-    - Gaming assets, batch operations, tokenized assets.
+  - **Use Cases**: Gaming assets, batch operations, tokenized assets.
 
 #### References
 
@@ -684,8 +619,6 @@ Ethereum tokens are digital assets built on top of the Ethereum blockchain, foll
 ---
 
 ### 4. Test Networks
-
-#### Overview
 
 Test networks, or testnets, are Ethereum networks that simulate the main network (mainnet) environment. They are essential for developers to test and debug smart contracts and DApps in a risk-free setting, using test Ether that has no real monetary value.
 
@@ -701,24 +634,17 @@ Test networks, or testnets, are Ethereum networks that simulate the main network
 
 #### Common Test Networks
 
-- **Goerli Testnet**:
-  - **Description**:
-    - A cross-client, Proof-of-Authority testnet supporting various Ethereum clients.
+- **Goerli Testnet**: A cross-client, Proof-of-Authority testnet supporting various Ethereum clients.
   - **Features**:
     - Stability and longevity.
     - Test Ether can be obtained from faucets.
-  - **Use Cases**:
-    - Testing smart contracts, DApps, and validator setups.
+  - **Use Cases**: Testing smart contracts, DApps, and validator setups.
 
-- **Sepolia Testnet**:
-  - **Description**:
-    - A newer testnet designed for efficient and reliable testing.
+- **Sepolia Testnet**: A newer testnet designed for efficient and reliable testing.
   - **Features**:
     - Quick block times.
     - Lower resource usage for nodes.
-  - **Use Cases**:
-    - Rapid testing cycles.
-    - Ideal for development environments.
+  - **Use Cases**: Rapid testing cycles that are ideal for development environments.
 
 #### References
 
@@ -731,8 +657,6 @@ Test networks, or testnets, are Ethereum networks that simulate the main network
 ---
 
 ### 5. Proof of Stake (PoS)
-
-#### Overview
 
 Proof of Stake is a consensus mechanism where validators are selected to create new blocks based on the amount of cryptocurrency they hold and are willing to "stake" as collateral. PoS aims to address the energy inefficiencies of Proof of Work by replacing miners with validators.
 
@@ -793,8 +717,6 @@ Proof of Stake is a consensus mechanism where validators are selected to create 
 
 ### 1. ERC-721 Standard
 
-#### Overview
-
 The ERC-721 standard is a protocol on the Ethereum blockchain that defines how to create non-fungible tokens (NFTs). Unlike fungible tokens (such as ERC-20 tokens), where each token is identical and interchangeable, NFTs are unique and indivisible. ERC-721 provides a standardized way to represent ownership of these unique assets, enabling interoperability across various platforms and services.
 
 #### Key Features
@@ -831,23 +753,15 @@ The ERC-721 standard is a protocol on the Ethereum blockchain that defines how t
 
 #### Use Cases
 
-- **Digital Art**:
-  - Artists can tokenize their artwork, creating a verifiable proof of ownership and authenticity.
-  - NFTs can be sold on marketplaces, providing royalties to the original artist.
-- **Collectibles**:
-  - Creation of unique collectibles like CryptoKitties, each with distinct attributes.
-- **Gaming**:
-  - In-game items represented as NFTs, allowing players to own, trade, and sell items outside the game.
-- **Virtual Real Estate**:
-  - Ownership of virtual land or property in platforms like Decentraland.
-- **Certificates and Credentials**:
-  - Issuing verifiable certificates, diplomas, or licenses as NFTs.
+- **Digital Art**: Artists can tokenize their artwork, creating a verifiable proof of ownership and authenticity.
+- **Collectibles**: Creation of unique collectibles like CryptoKitties, each with distinct attributes.
+- **Gaming**: In-game items represented as NFTs, allowing players to own, trade, and sell items outside the game.
+- **Virtual Real Estate**: Ownership of virtual land or property in platforms like Decentraland.
+- **Certificates and Credentials**: Issuing verifiable certificates, diplomas, or licenses as NFTs.
 
 #### Technical Details
 
-- **Metadata JSON Schema**:
-  - The metadata file typically follows a standard schema with fields like `name`, `description`, `image`, and custom attributes.
-  - Example JSON structure:
+- **Metadata JSON Schema**: The metadata file typically follows a standard schema with fields like `name`, `description`, `image`, and custom attributes.
 
     ```json
     {
@@ -878,8 +792,6 @@ The ERC-721 standard is a protocol on the Ethereum blockchain that defines how t
 ---
 
 ### 2. ERC-1155 Tokens
-
-#### Overview
 
 The ERC-1155 standard, known as the Multi-Token Standard, allows a single smart contract to manage multiple token types—both fungible and non-fungible. It introduces a more efficient way of handling tokens, reducing the need for deploying multiple contracts and enabling batch operations.
 
@@ -946,8 +858,6 @@ The ERC-1155 standard, known as the Multi-Token Standard, allows a single smart 
 ---
 
 ### 3. Metaverse Basics
-
-#### Overview
 
 The metaverse is a collective virtual shared space, created by the convergence of virtually enhanced physical reality and physically persistent virtual reality. It encompasses a wide range of virtual experiences, environments, and assets that are interconnected, allowing users to interact in real-time across various platforms.
 
@@ -1029,8 +939,6 @@ The metaverse is a collective virtual shared space, created by the convergence o
 
 ### 1. Scalability
 
-#### Overview
-
 Scalability refers to a blockchain's ability to handle an increasing number of transactions efficiently without compromising performance or security. Ethereum's transition to Ethereum 2.0, also known as Eth2 or Serenity, includes several upgrades designed to improve scalability, security, and sustainability.
 
 #### Scaling Solutions
@@ -1065,21 +973,15 @@ Ethereum 2.0 introduces multiple approaches to scaling the network:
 
 #### Benefits of Scaling Solutions
 
-- **Increased Transaction Throughput**:
-  - From the current ~15 transactions per second (TPS) to potentially thousands.
-- **Reduced Gas Fees**:
-  - Less congestion leads to lower transaction costs for users.
-- **Enhanced User Experience**:
-  - Faster transaction confirmations improve usability for DApps.
+- **Increased Transaction Throughput**: From the current ~15 transactions per second (TPS) to potentially thousands.
+- **Reduced Gas Fees**: Less congestion leads to lower transaction costs for users.
+- **Enhanced User Experience**: Faster transaction confirmations improve usability for DApps.
 
 #### Challenges and Considerations
 
-- **Security**:
-  - Ensuring that scaling solutions do not compromise the network's security.
-- **Decentralization**:
-  - Maintaining decentralization while implementing sharding and Layer 2 solutions.
-- **Developer Adoption**:
-  - Encouraging developers to build and migrate applications to new scaling platforms.
+- **Security**: Ensuring that scaling solutions do not compromise the network's security.
+- **Decentralization**: Maintaining decentralization while implementing sharding and Layer 2 solutions.
+- **Developer Adoption**: Encouraging developers to build and migrate applications to new scaling platforms.
 
 #### References
 
@@ -1093,35 +995,23 @@ Ethereum 2.0 introduces multiple approaches to scaling the network:
 
 ### 2. Energy Consumption
 
-#### Overview
-
 Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) with Ethereum 2.0 significantly reduces the network's energy consumption. This shift addresses environmental concerns associated with the high energy usage of PoW mining.
 
 #### Energy Consumption in Proof of Work
 
-- **Mining Process**:
-  - Miners use computational power to solve complex mathematical puzzles.
-  - Requires specialized hardware (ASICs, GPUs) consuming significant electricity.
-- **Environmental Impact**:
-  - High energy consumption contributes to a larger carbon footprint.
-  - Sustainability concerns due to reliance on non-renewable energy sources.
+- **Mining Process**: Miners use computational power to solve complex mathematical puzzles that requires specialized hardware (ASICs, GPUs) consuming significant electricity.
+- **Environmental Impact**: High energy consumption contributes to a larger carbon footprint leading to sustainability concerns due to reliance on non-renewable energy sources.
 
 #### Reduction in Proof of Stake
 
-- **Elimination of Mining**:
-  - Validators replace miners and are selected based on the amount of ETH they stake.
-- **Energy Efficiency**:
-  - Validators require minimal computational resources.
-  - Reduces Ethereum's energy consumption by approximately 99.95%.
+- **Elimination of Mining**: Validators replace miners and are selected based on the amount of ETH they stake.
+- **Energy Efficiency**: Validators require minimal computational resources and reduce Ethereum's energy consumption by approximately 99.95%.
 
 #### Implications
 
-- **Sustainability**:
-  - Aligns with global efforts to reduce energy consumption and carbon emissions.
-- **Public Perception**:
-  - Improves Ethereum's image regarding environmental responsibility.
-- **Regulatory Compliance**:
-  - May mitigate regulatory pressures related to energy usage in blockchain networks.
+- **Sustainability**: Aligns with global efforts to reduce energy consumption and carbon emissions.
+- **Public Perception**: Improves Ethereum's image regarding environmental responsibility.
+- **Regulatory Compliance**: May mitigate regulatory pressures related to energy usage in blockchain networks.
 
 #### References
 
@@ -1135,21 +1025,14 @@ Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) with Ethe
 
 ### 3. Beacon Chain
 
-#### Overview
-
 The Beacon Chain is a core component of Ethereum 2.0, introduced to implement Proof of Stake consensus mechanism. Launched on December 1, 2020, it runs in parallel to the original Ethereum PoW chain and coordinates the network of validators, manages the PoS protocol, and lays the groundwork for future scalability improvements like sharding.
 
 #### Functions
 
-- **Consensus Layer**:
-  - Manages the PoS protocol, ensuring validators reach consensus on the state of the blockchain.
-- **Validator Management**:
-  - Handles the registration, activation, and removal of validators.
-  - Manages validator stakes and rewards.
-- **Randomness Source**:
-  - Provides secure randomness (RANDAO) for validator selection and sharding assignments.
-- **Sharding Coordination**:
-  - Will oversee the implementation and synchronization of shard chains in future upgrades.
+- **Consensus Layer**: Manages the PoS protocol, ensuring validators reach consensus on the state of the blockchain.
+- **Validator Management**: Handles the registration, activation, removal of validators, and stakes and rewards.
+- **Randomness Source**: Provides secure randomness (RANDAO) for validator selection and sharding assignments.
+- **Sharding Coordination**: Will oversee the implementation and synchronization of shard chains in future upgrades.
 
 #### Technical Details
 
@@ -1163,8 +1046,7 @@ The Beacon Chain is a core component of Ethereum 2.0, introduced to implement Pr
 
 #### Validator Participation
 
-- **Staking Requirements**:
-  - Minimum of 32 ETH staked to become a validator.
+- **Staking Requirements**: Minimum of 32 ETH staked to become a validator.
 - **Responsibilities**:
   - Propose new blocks when selected.
   - Attest to blocks proposed by others.
@@ -1185,8 +1067,6 @@ The Beacon Chain is a core component of Ethereum 2.0, introduced to implement Pr
 
 ### 4. Plasma
 
-#### Overview
-
 Plasma is a Layer 2 scaling solution proposed to increase Ethereum's transaction throughput by offloading transactions to child chains. These child chains periodically commit to the main Ethereum chain, ensuring security while reducing the load on the main network.
 
 #### How Plasma Works
@@ -1203,28 +1083,20 @@ Plasma is a Layer 2 scaling solution proposed to increase Ethereum's transaction
 
 #### Benefits
 
-- **Scalability**:
-  - Offloads transaction processing from the main chain, allowing for higher throughput.
-- **Security**:
-  - Inherits the security of Ethereum through periodic commitments.
-- **Reduced Fees**:
-  - Transactions on child chains can be cheaper due to lower congestion.
+- **Scalability**: Offloads transaction processing from the main chain, allowing for higher throughput.
+- **Security**: Inherits the security of Ethereum through periodic commitments.
+- **Reduced Fees**: Transactions on child chains can be cheaper due to lower congestion.
 
 #### Limitations
 
-- **Complexity**:
-  - Implementing Plasma requires complex mechanisms for exits and fraud proofs.
-- **Data Availability**:
-  - Challenges arise if data from the child chain is not readily available.
-- **User Experience**:
-  - Exiting the Plasma chain back to the main chain can take time due to challenge periods.
+- **Complexity**: Implementing Plasma requires complex mechanisms for exits and fraud proofs.
+- **Data Availability**: Challenges arise if data from the child chain is not readily available.
+- **User Experience**: Exiting the Plasma chain back to the main chain can take time due to challenge periods.
 
 #### Use Cases
 
-- **Microtransactions**:
-  - Ideal for high-volume, low-value transactions like payments or gaming.
-- **Token Transfers**:
-  - Efficient transfer of ERC-20 tokens off-chain.
+- **Microtransactions**: Ideal for high-volume, low-value transactions like payments or gaming.
+- **Token Transfers**: Efficient transfer of ERC-20 tokens off-chain.
 
 #### References
 
@@ -1243,8 +1115,6 @@ Plasma is a Layer 2 scaling solution proposed to increase Ethereum's transaction
 ### 1. ERC-20 and ERC-884 Standards
 
 #### ERC-20 Standard
-
-##### Overview
 
 The ERC-20 standard is a technical specification used for implementing fungible tokens on the Ethereum blockchain. Fungible tokens are interchangeable; each token is identical in type and value to another token. ERC-20 provides a standardized set of rules and functions that Ethereum tokens must follow, ensuring compatibility across the Ethereum ecosystem.
 
@@ -1317,8 +1187,6 @@ The ERC-884 standard is designed to represent shares of stock in a Delaware corp
 
 ### 2. Decentralized Finance (DeFi)
 
-#### Overview
-
 Decentralized Finance (DeFi) is a blockchain-based form of finance that does not rely on central financial intermediaries such as banks or brokerages. Instead, it utilizes smart contracts on blockchains, the most common being Ethereum, to provide financial instruments. DeFi aims to democratize finance by replacing centralized institutions with peer-to-peer relationships and open, transparent protocols.
 
 #### Key Components
@@ -1373,8 +1241,6 @@ Decentralized Finance (DeFi) is a blockchain-based form of finance that does not
 ---
 
 ### 3. Decentralized Autonomous Organizations (DAOs)
-
-#### Overview
 
 Decentralized Autonomous Organizations (DAOs) are organizations represented by rules encoded as computer programs (smart contracts) that are transparent, controlled by organization members, and not influenced by a central government. The community governs and makes decisions about fund allocations and protocol changes.
 

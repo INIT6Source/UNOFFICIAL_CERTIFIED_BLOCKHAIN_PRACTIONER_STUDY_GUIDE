@@ -157,8 +157,7 @@ Transactions are the actions that change the state of the blockchain. They can i
 - **Addresses**:
   - **Sender Address**: The account initiating the transaction.
   - **Receiver Address**: The account receiving funds or data.
-- **Amount**:
-  - The quantity of cryptocurrency being transferred.
+- **Amount**: The quantity of cryptocurrency being transferred.
 - **Gas Fees**:
   - **Gas**: A unit representing computational effort.
   - **Gas Price**: The cost per unit of gas, often in Gwei.

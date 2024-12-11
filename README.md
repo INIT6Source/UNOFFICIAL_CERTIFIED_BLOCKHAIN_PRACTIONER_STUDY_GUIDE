@@ -364,11 +364,8 @@ IPFS is a distributed system for storing and accessing files, websites, applicat
 
 #### Integration with Blockchain
 
-- **NFTs and IPFS**:
-  - Store NFT metadata and assets on IPFS.
-  - Ensure long-term availability and integrity.
-- **DApps Front-End Hosting**:
-  - Host DApp interfaces on IPFS for decentralization.
+- **NFTs and IPFS**: Store NFT metadata and assets on IPFS ensuring long-term availability and integrity.
+- **DApps Front-End Hosting**: Host DApp interfaces on IPFS for decentralization.
 
 #### References
 
@@ -398,11 +395,9 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
   - **Functionality**:
     - Automate contractual agreements without intermediaries.
     - Execute transactions when predefined conditions are met.
-  - **Impact**:
-    - Enable decentralized finance (DeFi), supply chain management, and more.
+  - **Impact**: Enable decentralized finance (DeFi), supply chain management, and more.
   
-- **Ethereum Virtual Machine (EVM)**:
-  - **Description**: A runtime environment for executing smart contracts on Ethereum.
+- **Ethereum Virtual Machine (EVM)**: A runtime environment for executing smart contracts on Ethereum.
   - **Features**:
     - **Turing-Complete**: Capable of performing any computation given enough resources.
     - **Consistent Execution**: Ensures smart contracts run identically on all nodes.
@@ -411,26 +406,19 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
     - Facilitates the deployment and execution of smart contracts.
 
 - **Token Standards**:
-  - **ERC-20**:
-    - **Purpose**: Standardizes the creation of fungible tokens.
+  - **ERC-20**: Standardizes the creation of fungible tokens.
     - **Usage**: Used for cryptocurrencies, utility tokens, and governance tokens.
-  - **ERC-721**:
-    - **Purpose**: Defines a standard for non-fungible tokens (NFTs).
+  - **ERC-721**: Defines a standard for non-fungible tokens (NFTs).
     - **Usage**: Digital art, collectibles, and unique assets.
-  - **ERC-1155**:
-    - **Purpose**: A multi-token standard supporting both fungible and non-fungible tokens.
+  - **ERC-1155**: A multi-token standard supporting both fungible and non-fungible tokens.
     - **Usage**: Gaming assets, batch transfers, and complex asset management.
 
 - **Decentralized Finance (DeFi)**: Financial services built on blockchain technology, removing intermediaries.
-  - **Components**:
-    - Lending platforms, decentralized exchanges (DEXs), stablecoins.
-  - **Significance**:
-    - Democratizes access to financial services.
-    - Offers transparency and control to users.
+  - **Components**: Lending platforms, decentralized exchanges (DEXs), stablecoins.
+  - **Significance**: Democratizes access to financial services.
 
 - **Non-Fungible Tokens (NFTs)**: Unique digital assets that represent ownership of specific items or content.
-  - **Applications**:
-    - Art, music, virtual real estate, collectibles, and certifications.
+  - **Applications**: Art, music, virtual real estate, collectibles, and certifications.
 
 - **Decentralized Autonomous Organizations (DAOs)**: Organizations governed by smart contracts and community consensus.
   - **Function**:
@@ -468,8 +456,7 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
 
 #### Roadmap and Upgrades
 
-- **Ethereum 2.0 (Eth2)**:
-  - **Goal**: Improve scalability, security, and sustainability.
+- **Ethereum 2.0 (Eth2)**: Improve scalability, security, and sustainability.
   - **Key Components**:
     - **The Merge**: Transition from Proof of Work (PoW) to Proof of Stake (PoS).
     - **Sharding**: Splitting the network into shards to increase capacity.
@@ -826,25 +813,17 @@ The ERC-1155 standard, known as the Multi-Token Standard, allows a single smart 
 
 #### Use Cases
 
-- **Gaming Assets**:
-  - Efficiently manage in-game items like weapons, skins, or loot boxes.
-  - Allows for both stackable items (fungible) and unique items (non-fungible).
-- **Digital Collectibles**:
-  - Create collections where certain items are common (fungible) and others are rare (non-fungible).
-- **Tokenized Real-World Assets**:
-  - Represent physical goods or commodities with varying degrees of uniqueness.
-- **Batch Transfers**:
-  - Useful for transactions involving multiple types of tokens, saving on transaction fees.
+- **Gaming Assets**: Efficiently manage in-game items like weapons, skins, or loot boxes allowing for both stackable items (fungible) and unique items (non-fungible).
+- **Digital Collectibles**: Create collections where certain items are common (fungible) and others are rare (non-fungible).
+- **Tokenized Real-World Assets**: Represent physical goods or commodities with varying degrees of uniqueness.
+- **Batch Transfers**: Useful for transactions involving multiple types of tokens, saving on transaction fees.
 
 #### Technical Details
 
-- **Metadata URI**:
-  - Uses a single URI with a placeholder `{id}` to fetch metadata for different token IDs.
+- **Metadata URI**: Uses a single URI with a placeholder `{id}` to fetch metadata for different token IDs.
   - Example: `https://token-cdn-domain/{id}.json`
-- **Interface Identification**:
-  - ERC-1155 contracts can implement `ERC165` to signal supported interfaces.
-- **Safe Transfers**:
-  - Requires the recipient to implement `IERC1155Receiver` for contract addresses, ensuring safe handling of tokens.
+- **Interface Identification**: ERC-1155 contracts can implement `ERC165` to signal supported interfaces.
+- **Safe Transfers**: Requires the recipient to implement `IERC1155Receiver` for contract addresses, ensuring safe handling of tokens.
 
 #### References
 
@@ -881,17 +860,13 @@ The metaverse is a collective virtual shared space, created by the convergence o
 
 #### Examples
 
-- **Decentraland**:
-  - A decentralized virtual world where users can purchase land, build experiences, and monetize content.
+- **Decentraland**: A decentralized virtual world where users can purchase land, build experiences, and monetize content.
   - Land parcels are represented as NFTs (ERC-721 tokens).
-- **The Sandbox**:
-  - A community-driven platform where creators can design, share, and monetize voxel assets and gaming experiences.
+- **The Sandbox**: A community-driven platform where creators can design, share, and monetize voxel assets and gaming experiences.
   - Uses SAND tokens for transactions.
-- **Cryptovoxels**:
-  - A virtual world on Ethereum where users can buy land, build, and customize spaces.
+- **Cryptovoxels**: A virtual world on Ethereum where users can buy land, build, and customize spaces.
   - Focused on art galleries and exhibitions.
-- **Somnium Space**:
-  - A VR world with its own economy and currency, allowing users to buy land, build, and interact in VR.
+- **Somnium Space**: A VR world with its own economy and currency, allowing users to buy land, build, and interact in VR.
 
 #### Technologies Involved
 

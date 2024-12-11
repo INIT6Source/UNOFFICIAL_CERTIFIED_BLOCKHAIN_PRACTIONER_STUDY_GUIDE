@@ -177,6 +177,7 @@ Transactions are the actions that change the state of the blockchain. They can i
 - **Gas Fees**:
   - **Gas**: A unit representing computational effort.
   - **Gas Price**: The cost per unit of gas, often in Gwei.
+  - **Gwei**: 1 Gwei = 1,000,000,000 Wei (the smallest unit of Ether, analogous to how a penny is a fraction of a dollar). 1 Ether = 1,000,000,000 Gwei
   - **Total Fee**: Gas used multiplied by the gas price.
 - **Nonce**:
   - A counter that represents the number of transactions sent from an address.
@@ -187,39 +188,21 @@ Transactions are the actions that change the state of the blockchain. They can i
 
 #### Transaction Lifecycle
 
-1. **Creation**:
-   - User prepares the transaction with necessary details.
-2. **Signing**:
-   - Transaction is cryptographically signed by the sender.
-3. **Broadcasting**:
-   - Sent to the network and enters the mempool.
-4. **Validation**:
-   - Nodes verify the transaction's authenticity and correctness.
-5. **Inclusion in a Block**:
-   - Miners/validators include the transaction in a new block.
-6. **Confirmation**:
-   - Block is added to the blockchain, confirming the transaction.
-7. **Finality**:
-   - After several confirmations, the transaction is considered irreversible.
+1. **Creation**: User prepares the transaction with necessary details.
+2. **Signing**: Transaction is cryptographically signed by the sender.
+3. **Broadcasting**: Sent to the network and enters the mempool.
+4. **Validation**: Nodes verify the transaction's authenticity and correctness.
+5. **Inclusion in a Block**: Miners/validators include the transaction in a new block.
+6. **Confirmation**: The block is added to the blockchain, confirming the transaction.
+7. **Finality**: After several confirmations, the transaction is considered irreversible.
 
 #### Gas Mechanics
 
-- **EIP-1559 Upgrade**:
-  - Introduced a dual fee model with a base fee and priority fee.
+- **EIP-1559 Upgrade**: Introduced a dual fee model with a base fee and priority fee.
   - **Base Fee**: Adjusts dynamically based on network congestion.
   - **Priority Fee (Tip)**: Optional fee to incentivize miners/validators.
-- **Gas Limit**:
-  - The maximum amount of gas the sender is willing to consume.
-- **Out of Gas Error**:
-  - Occurs when the gas limit is insufficient for the transaction execution.
-
-#### Activities
-
-- **Analyze Transactions on Etherscan**:
-  - **Tasks**:
-    - Examine a transaction's details, including gas usage and input data.
-    - Decode transaction input data to understand smart contract interactions.
-    - Track the status and confirmations of a transaction.
+- **Gas Limit**: The maximum amount of gas the sender is willing to consume.
+- **Out of Gas Error**: Occurs when the gas limit is insufficient for the transaction execution.
 
 #### References
 
@@ -277,14 +260,6 @@ Forks in blockchain occur when the network splits into two separate chains due t
 - **Outcome**:
   - **Ethereum (ETH)**: Implemented the hard fork to recover funds.
   - **Ethereum Classic (ETC)**: Continued on the original chain, maintaining that "code is law."
-
-#### Activities
-
-- **Research the Ethereum Classic Fork**:
-  - **Tasks**:
-    - Examine the technical details of The DAO exploit.
-    - Explore the philosophical debates surrounding the fork.
-    - Analyze the impact on the Ethereum community and ecosystem.
 
 #### References
 
@@ -350,15 +325,6 @@ Smart contracts are programs stored on a blockchain that execute automatically w
   - **Use Safe Math Libraries**: Prevent numeric errors.
   - **Follow Design Patterns**: Such as Checks-Effects-Interactions.
 
-#### Activities
-
-- **Write and Deploy a Smart Contract**:
-  - **Tasks**:
-    1. **Set Up Environment**: Use Remix or local tools.
-    2. **Create "Hello World" Contract**: Write a simple contract that returns a greeting.
-    3. **Compile and Deploy**: Use a test network.
-    4. **Interact with Contract**: Call functions using MetaMask.
-
 #### References
 
 - [Smart Contracts Explained](https://ethereum.org/en/smart-contracts/)
@@ -402,14 +368,6 @@ DApps are applications that run on a decentralized network, utilizing smart cont
 - **User Experience**: Complex interfaces can deter users.
 - **Scalability**: High demand can lead to network congestion.
 - **Regulatory Uncertainty**: Legal status of DApps can be unclear.
-
-#### Activities
-
-- **Explore DApps on DappRadar**:
-  - **Tasks**:
-    - Browse different categories.
-    - Interact with selected DApps.
-    - Evaluate user engagement and activity levels.
 
 #### References
 
@@ -455,16 +413,6 @@ IPFS is a distributed system for storing and accessing files, websites, applicat
   - Ensure long-term availability and integrity.
 - **DApps Front-End Hosting**:
   - Host DApp interfaces on IPFS for decentralization.
-
-#### Activities
-
-- **Upload a File to IPFS**:
-  - **Tasks**:
-    1. **Install IPFS**: Follow official instructions.
-    2. **Initialize Node**: Run `ipfs init`.
-    3. **Add File**: Use `ipfs add filename`.
-    4. **Retrieve File**: Access via CID.
-    5. **Explore Pinning**: Use services to keep content persistent.
 
 #### References
 
@@ -595,20 +543,6 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
       - Introduced a base fee burned per transaction.
       - Improved transaction fee predictability.
 
-#### Activities
-
-- **Explore the Ethereum Ecosystem**:
-  - **Tasks**:
-    - Visit [Ethereum.org](https://ethereum.org) to understand its mission and vision.
-    - Explore popular DApps like [Uniswap](https://uniswap.org/) and [Aave](https://aave.com/).
-    - Learn about [Ethereum's roadmap](https://ethereum.org/en/upgrades/) and future plans.
-
-- **Interact with Ethereum**:
-  - **Tasks**:
-    - Set up a wallet using [MetaMask](https://metamask.io/).
-    - Acquire test Ether from a faucet on the Goerli or Sepolia testnets.
-    - Deploy a simple smart contract or interact with existing ones on a testnet.
-
 #### References
 
 - [Ethereum Official Website](https://ethereum.org)
@@ -696,20 +630,6 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
     - Additional fee to incentivize miners/validators.
     - Users can set the tip to speed up transaction inclusion.
 
-#### Activities
-
-- **Explore EVM Opcodes**:
-  - **Tasks**:
-    - Review the list of EVM opcodes on [Ethervm.io](https://www.ethervm.io/).
-    - Write a simple smart contract and compile it.
-    - Use tools like [Remix](https://remix.ethereum.org/) to view the bytecode and analyze the opcodes.
-
-- **Debug Smart Contracts**:
-  - **Tasks**:
-    - Deploy a contract on a testnet.
-    - Use Remix's debugger to step through the execution.
-    - Observe how different operations affect gas consumption.
-
 #### References
 
 - [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/)
@@ -764,29 +684,6 @@ Ethereum tokens are digital assets built on top of the Ethereum blockchain, foll
   - **Use Cases**:
     - Gaming assets, batch operations, tokenized assets.
 
-#### Activities
-
-- **Deploy an ERC-20 Token Using OpenZeppelin**:
-  - **Tasks**:
-    1. **Set Up Development Environment**:
-       - Install Node.js and npm.
-       - Install Truffle or Hardhat.
-    2. **Create a New Project**:
-       - Initialize with `npm init -y`.
-       - Install OpenZeppelin: `npm install @openzeppelin/contracts`.
-    3. **Write the Token Contract**:
-       - Create `MyToken.sol` and import ERC-20.
-       - Define your token's name, symbol, and initial supply.
-    4. **Compile and Test**:
-       - Compile the contract.
-       - Write tests to ensure functions work as expected.
-    5. **Deploy to a Testnet**:
-       - Configure network settings.
-       - Deploy using migration scripts or deployment plugins.
-    6. **Interact with the Token**:
-       - Use MetaMask or Etherscan to interact.
-       - Transfer tokens between accounts.
-
 #### References
 
 - [Ethereum Token Standards](https://ethereum.org/en/developers/docs/standards/tokens/)
@@ -834,25 +731,6 @@ Test networks, or testnets, are Ethereum networks that simulate the main network
   - **Use Cases**:
     - Rapid testing cycles.
     - Ideal for development environments.
-
-#### Activities
-
-- **Deploy a Contract on a Testnet**:
-  - **Tasks**:
-    1. **Set Up MetaMask**:
-       - Install MetaMask extension.
-       - Create a new wallet or import an existing one.
-    2. **Switch to a Testnet**:
-       - Add Goerli or Sepolia network in MetaMask settings.
-    3. **Obtain Test Ether**:
-       - Visit a faucet like [Goerli Faucet](https://goerlifaucet.com/).
-       - Request test Ether using your wallet address.
-    4. **Deploy Smart Contract**:
-       - Use [Remix IDE](https://remix.ethereum.org/) or a local environment.
-       - Compile and deploy your contract to the testnet.
-    5. **Interact with the Contract**:
-       - Use MetaMask or a custom interface to interact.
-       - Test all functionalities thoroughly.
 
 #### References
 
@@ -910,20 +788,6 @@ Proof of Stake is a consensus mechanism where validators are selected to create 
 - **Scalability**:
   - Facilitates sharding and other scaling solutions.
   - Allows for higher transaction throughput.
-
-#### Activities
-
-- **Learn About Staking**:
-  - **Tasks**:
-    - Visit the [Ethereum Staking Launchpad](https://launchpad.ethereum.org/) to understand the process.
-    - Explore staking services like [Lido](https://lido.fi/) or [Rocket Pool](https://rocketpool.net/).
-    - Review the hardware and technical requirements for running a validator node.
-
-- **Monitor Validator Performance**:
-  - **Tasks**:
-    - Use [Beaconcha.in](https://beaconcha.in/) to track validator statistics.
-    - Analyze the distribution of staked ETH among validators.
-    - Observe the effects of network participation on rewards.
 
 #### References
 
@@ -1015,34 +879,6 @@ The ERC-721 standard is a protocol on the Ethereum blockchain that defines how t
   - Contracts implementing ERC-721 should inherit from a standard interface.
   - OpenZeppelin provides secure and audited implementations of ERC-721.
 
-#### Activities
-
-- **Create and Mint Your Own NFT**:
-  - **Steps**:
-    1. **Set Up Development Environment**:
-       - Install Node.js and npm.
-       - Install Truffle or Hardhat for smart contract development.
-    2. **Use OpenZeppelin ERC-721 Contract**:
-       - Install OpenZeppelin Contracts: `npm install @openzeppelin/contracts`.
-       - Import `ERC721` and `ERC721URIStorage` in your Solidity file.
-    3. **Define Your NFT Contract**:
-       - Specify the token's name and symbol.
-       - Implement the constructor to initialize the contract.
-    4. **Implement Minting Functionality**:
-       - Create a function to mint new tokens.
-       - Assign unique Token IDs and set the `tokenURI` for metadata.
-    5. **Prepare Metadata and Assets**:
-       - Upload your asset (e.g., image) to IPFS using a service like [Pinata](https://pinata.cloud/).
-       - Create a metadata JSON file and upload it to IPFS.
-    6. **Compile and Deploy the Contract**:
-       - Compile your contract using your development tool.
-       - Deploy to a test network like Goerli or Sepolia.
-    7. **Interact Using MetaMask**:
-       - Configure MetaMask to connect to your testnet.
-       - Use Etherscan or a DApp interface to interact with your contract.
-    8. **View Your NFT on a Marketplace**:
-       - Connect to a testnet marketplace like OpenSea's testnet to view your NFT.
-
 #### References
 
 - [ERC-721 Standard Documentation](https://eips.ethereum.org/EIPS/eip-721)
@@ -1110,29 +946,6 @@ The ERC-1155 standard, known as the Multi-Token Standard, allows a single smart 
   - ERC-1155 contracts can implement `ERC165` to signal supported interfaces.
 - **Safe Transfers**:
   - Requires the recipient to implement `IERC1155Receiver` for contract addresses, ensuring safe handling of tokens.
-
-#### Activities
-
-- **Implement an ERC-1155 Contract**:
-  - **Steps**:
-    1. **Set Up Development Environment**:
-       - Install Node.js, npm, and a development framework like Hardhat.
-    2. **Use OpenZeppelin ERC-1155 Implementation**:
-       - Install OpenZeppelin Contracts: `npm install @openzeppelin/contracts`.
-       - Import `ERC1155` in your Solidity file.
-    3. **Define Token IDs and Metadata**:
-       - Assign specific IDs to different token types.
-       - Set up the URI for metadata, possibly using IPFS.
-    4. **Mint Tokens**:
-       - Write functions to mint new tokens using `mint` or `mintBatch`.
-       - Define access control for minting (e.g., only the owner can mint).
-    5. **Batch Transfer Tokens**:
-       - Implement batch transfer functions to move multiple tokens.
-    6. **Deploy and Test**:
-       - Deploy your contract to a testnet.
-       - Interact with the contract using scripts or a frontend interface.
-    7. **Interact with DApps**:
-       - Use platforms that support ERC-1155 to visualize and trade your tokens.
 
 #### References
 
@@ -1211,25 +1024,6 @@ The metaverse is a collective virtual shared space, created by the convergence o
   - Regulatory and legal issues regarding digital ownership and transactions.
   - Ensuring inclusivity and accessibility.
 
-#### Activities
-
-- **Explore a Virtual World**:
-  - **Steps**:
-    1. **Create an Account**:
-       - Sign up on a platform like [Decentraland](https://decentraland.org/) or [The Sandbox](https://www.sandbox.game/en/).
-    2. **Set Up a Wallet**:
-       - Use MetaMask or another Ethereum wallet to manage digital assets.
-    3. **Navigate the Virtual Environment**:
-       - Explore different areas, events, and experiences.
-    4. **Interact with Other Users**:
-       - Chat, collaborate, or play games with other participants.
-    5. **Participate in Events**:
-       - Attend virtual concerts, exhibitions, or conferences.
-    6. **Create or Purchase Assets**:
-       - Try designing an asset or buying land.
-    7. **Monetize Content**:
-       - Learn how creators can earn revenue in the metaverse.
-
 #### References
 
 - [What is the Metaverse?](https://ethereum.org/en/metaverse/)
@@ -1299,21 +1093,6 @@ Ethereum 2.0 introduces multiple approaches to scaling the network:
 - **Developer Adoption**:
   - Encouraging developers to build and migrate applications to new scaling platforms.
 
-#### Activities
-
-- **Use a Layer 2 Solution**:
-  - **Tasks**:
-    1. **Set Up a Compatible Wallet**:
-       - Use wallets like MetaMask, which support Layer 2 networks.
-    2. **Connect to a Layer 2 Network**:
-       - Add the network details for a Layer 2 solution like Arbitrum or Optimism.
-    3. **Bridge Assets**:
-       - Use a bridge to transfer ETH or tokens from Layer 1 to Layer 2.
-    4. **Interact with DApps on Layer 2**:
-       - Use decentralized exchanges (DEXs), lending platforms, or other DApps that operate on Layer 2.
-    5. **Compare Transaction Costs and Speeds**:
-       - Observe the differences in gas fees and confirmation times between Layer 1 and Layer 2.
-
 #### References
 
 - [Ethereum Scalability](https://ethereum.org/en/upgrades/scalability/)
@@ -1355,17 +1134,6 @@ Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) with Ethe
   - Improves Ethereum's image regarding environmental responsibility.
 - **Regulatory Compliance**:
   - May mitigate regulatory pressures related to energy usage in blockchain networks.
-
-#### Activities
-
-- **Calculate Energy Savings**:
-  - **Tasks**:
-    1. **Research Energy Consumption Data**:
-       - Find reliable sources detailing Ethereum's energy usage before and after the transition.
-    2. **Compare with Other Industries**:
-       - Compare Ethereum's energy consumption to traditional financial systems or other blockchains like Bitcoin.
-    3. **Analyze Environmental Impact**:
-       - Understand how reduced energy consumption affects carbon emissions.
 
 #### References
 
@@ -1415,19 +1183,6 @@ The Beacon Chain is a core component of Ethereum 2.0, introduced to implement Pr
 - **Rewards and Penalties**:
   - Earn rewards for active participation.
   - Penalized for being offline (inactivity leak) or malicious behavior (slashing).
-
-#### Activities
-
-- **Monitor the Beacon Chain**:
-  - **Tasks**:
-    1. **Use Beacon Chain Explorers**:
-       - Visit websites like [Beaconcha.in](https://beaconcha.in/) or [Beaconscan](https://beaconscan.com/).
-    2. **Analyze Validator Metrics**:
-       - Observe the total number of validators, total staked ETH, and network participation rate.
-    3. **Understand Network Health**:
-       - Review the status of epochs, slots, and finalized blocks.
-    4. **Explore Validator Distribution**:
-       - Examine geographic and client diversity among validators.
 
 #### References
 
@@ -1482,17 +1237,6 @@ Plasma is a Layer 2 scaling solution proposed to increase Ethereum's transaction
   - Ideal for high-volume, low-value transactions like payments or gaming.
 - **Token Transfers**:
   - Efficient transfer of ERC-20 tokens off-chain.
-
-#### Activities
-
-- **Explore a Plasma Implementation**:
-  - **Tasks**:
-    1. **Research OMG Network**:
-       - Understand how OMG Network uses Plasma to scale Ethereum.
-    2. **Interact with Plasma Applications**:
-       - Use wallets or DApps that leverage Plasma technology.
-    3. **Understand Exits and Challenges**:
-       - Learn how users can exit the Plasma chain and the role of fraud proofs.
 
 #### References
 
@@ -1572,25 +1316,6 @@ The ERC-884 standard is designed to represent shares of stock in a Delaware corp
 - **Regulatory Compliance**: Facilitates compliance with securities laws and regulations when issuing and trading tokenized shares.
 - **Investor Management**: Simplifies the process of tracking shareholders and managing corporate actions like dividends and voting.
 
-#### Activities
-
-- **Create a Compliant Token**
-
-  - **Tasks**:
-    1. **Research Legal Requirements**:
-       - Understand the regulatory landscape for tokenizing securities in your jurisdiction.
-       - Consult legal experts to ensure compliance with laws such as SEC regulations.
-    2. **Implement ERC-884 Contract**:
-       - Use or adapt existing ERC-884 implementations.
-       - Incorporate identity verification mechanisms into your smart contract.
-    3. **Set Up Identity Verification**:
-       - Integrate KYC processes to verify the identity of investors.
-       - Store necessary data securely, respecting privacy laws.
-    4. **Deploy and Test**:
-       - Deploy your contract on a testnet.
-       - Simulate share issuance and transfers between verified investors.
-       - Ensure that transfer restrictions and compliance features work as intended.
-
 #### References
 
 - [ERC-20 Token Standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
@@ -1648,26 +1373,6 @@ Decentralized Finance (DeFi) is a blockchain-based form of finance that does not
 - **Market Volatility**: Crypto markets can be highly volatile.
 - **Liquidity Risks**: Insufficient liquidity can lead to slippage or inability to execute trades.
 
-#### Activities
-
-- **Participate in a DeFi Protocol**
-
-  - **Tasks**:
-    1. **Set Up a Wallet**:
-       - Install a Web3 wallet like MetaMask.
-       - Ensure it's funded with testnet Ether if experimenting on a test network.
-    2. **Explore a DeFi Platform**:
-       - Visit platforms like Aave or Uniswap.
-    3. **Supply Assets to a Lending Protocol**:
-       - Deposit tokens to earn interest.
-       - Understand how collateralization works.
-    4. **Swap Tokens on a DEX**:
-       - Exchange one type of token for another.
-       - Observe the transaction process and fees.
-    5. **Assess Risks**:
-       - Research the protocol's security audits.
-       - Learn about potential risks involved.
-
 #### References
 
 - [What is DeFi?](https://ethereum.org/en/defi/)
@@ -1722,25 +1427,6 @@ Decentralized Autonomous Organizations (DAOs) are organizations represented by r
 - **Legal Status**: DAOs exist in a legal gray area in many jurisdictions.
 - **Liability**: Members may face legal liabilities depending on the DAO's activities.
 - **Compliance**: Need to consider securities laws, tax obligations, and other regulatory requirements.
-
-#### Activities
-
-- **Join a DAO Community**
-
-  - **Tasks**:
-    1. **Research DAOs**:
-       - Visit platforms like DAOstack or Aragon to explore existing DAOs.
-       - Read about their missions, governance models, and membership requirements.
-    2. **Participate in Discussions**:
-       - Join community forums or Discord channels.
-       - Engage in conversations about proposals and governance.
-    3. **Contribute to Governance**:
-       - Acquire governance tokens if necessary.
-       - Vote on active proposals.
-       - Consider submitting your own proposal.
-    4. **Understand Risks and Responsibilities**:
-       - Be aware of the potential legal implications.
-       - Understand the financial risks involved.
 
 #### References
 

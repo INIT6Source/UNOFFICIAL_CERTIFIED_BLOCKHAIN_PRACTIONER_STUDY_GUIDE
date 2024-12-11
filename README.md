@@ -407,18 +407,18 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
 
 - **Token Standards**:
   - **ERC-20**: Standardizes the creation of fungible tokens.
-    - **Usage**: Used for cryptocurrencies, utility tokens, and governance tokens.
+    - Used for cryptocurrencies, utility tokens, and governance tokens.
   - **ERC-721**: Defines a standard for non-fungible tokens (NFTs).
-    - **Usage**: Digital art, collectibles, and unique assets.
+    - Digital art, collectibles, and unique assets.
   - **ERC-1155**: A multi-token standard supporting both fungible and non-fungible tokens.
-    - **Usage**: Gaming assets, batch transfers, and complex asset management.
+    - Gaming assets, batch transfers, and complex asset management.
 
 - **Decentralized Finance (DeFi)**: Financial services built on blockchain technology, removing intermediaries.
   - **Components**: Lending platforms, decentralized exchanges (DEXs), stablecoins.
   - **Significance**: Democratizes access to financial services.
 
 - **Non-Fungible Tokens (NFTs)**: Unique digital assets that represent ownership of specific items or content.
-  - **Applications**: Art, music, virtual real estate, collectibles, and certifications.
+  - Art, music, virtual real estate, collectibles, and certifications.
 
 - **Decentralized Autonomous Organizations (DAOs)**: Organizations governed by smart contracts and community consensus.
   - **Function**:
@@ -457,24 +457,20 @@ Ethereum's native cryptocurrency, Ether (ETH), is used to pay for transaction fe
 #### Roadmap and Upgrades
 
 - **Ethereum 2.0 (Eth2)**: Improve scalability, security, and sustainability.
-  - **Key Components**:
-    - **The Merge**: Transition from Proof of Work (PoW) to Proof of Stake (PoS).
-    - **Sharding**: Splitting the network into shards to increase capacity.
+  - **The Merge**: Transition from Proof of Work (PoW) to Proof of Stake (PoS).
+  - **Sharding**: Splitting the network into shards to increase capacity.
 
 - **EIPs (Ethereum Improvement Proposals)**: Community-driven proposals for protocol enhancements.
-  - **Process**:
-    - Open discussion among developers and stakeholders.
-    - Requires consensus for implementation.
+  - Open discussion among developers and stakeholders.
+  - Requires consensus for implementation.
 
 - **Recent Upgrades**:
   - **The Merge**: Unified the Ethereum Mainnet with the Beacon Chain PoS system.
-    - **Impact**:
-      - Reduced energy consumption by ~99.95%.
-      - Paved the way for future scalability improvements.
+    - Reduced energy consumption by ~99.95%.
+    - Paved the way for future scalability improvements.
   - **EIP-1559**: Modified the fee market mechanism.
-    - **Features**:
-      - Introduced a base fee burned per transaction.
-      - Improved transaction fee predictability.
+    - Introduced a base fee burned per transaction.
+    - Improved transaction fee predictability.
 
 #### References
 
@@ -497,9 +493,7 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
   - **Implication**: Allows developers to implement complex logic and algorithms in smart contracts.
   
 - **Isolation**:
-  - **Sandboxed Environment**:
-    - Smart contracts run in a secure, isolated environment.
-    - Prevents smart contracts from accessing the underlying system or interfering with each other.
+  - **Sandboxed Environment**: Smart contracts run in a secure, isolated environment that prevents them from accessing the underlying system or interfering with each other.
   - **Security**: Protects the network from malicious code execution.
 
 - **Deterministic Execution**:
@@ -514,20 +508,16 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
 #### EVM Bytecode
 
 - **Compilation**:
-  - Smart contracts written in high-level languages (e.g., Solidity) are compiled into bytecode.
-  - The bytecode is executed by the EVM.
+  - Smart contracts written in high-level languages (e.g., Solidity) are compiled into bytecode which is executed by the EVM.
 
-- **Opcodes**:
-  - **Definition**: Low-level instructions that the EVM understands.
+- **Opcodes**: Low-level instructions that the EVM understands.
   - **Examples**:
     - `PUSH`: Pushes a value onto the stack.
     - `POP`: Removes the top value from the stack.
     - `ADD`, `SUB`, `MUL`, `DIV`: Arithmetic operations.
     - `CALL`: Invokes another contract or function.
   
-- **Gas Costs**:
-  - Each opcode has an associated gas cost.
-  - Complex operations consume more gas, incentivizing efficient code.
+- **Gas Costs**: Each opcode has an associated gas cost where complex operations consume more gas, incentivizing efficient code.
 
 #### Gas Mechanism
 
@@ -539,8 +529,7 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
   - **Transaction Level**: Maximum amount of gas a user is willing to spend on a transaction.
   - **Block Level**: The maximum gas allowed per block, limiting the number of transactions.
 
-- **Gas Price**:
-  - **Definition**: The amount of Ether a user is willing to pay per unit of gas.
+- **Gas Price**: The amount of Ether a user is willing to pay per unit of gas.
   - **Transaction Fee Calculation**: `Transaction Fee = Gas Used × Gas Price`.
 
 - **EIP-1559 Fee Model**:
@@ -610,13 +599,9 @@ Test networks, or testnets, are Ethereum networks that simulate the main network
 
 #### Purpose of Testnets
 
-- **Safe Testing Environment**:
-  - Allows developers to experiment without risking real funds.
-  - Helps identify and fix issues before deploying to mainnet.
+- **Safe Testing Environment**: Allows developers to  identify and fix issues without risking real funds or deploying to the mainnet.
 
-- **Community Collaboration**:
-  - Enables multiple developers to work together on shared projects.
-  - Facilitates testing of interactions between contracts.
+- **Community Collaboration**: Enables multiple developers to work together on shared projects facilitating the testing of interactions between contracts.
 
 #### Common Test Networks
 
@@ -841,31 +826,17 @@ The metaverse is a collective virtual shared space, created by the convergence o
 
 #### Key Concepts
 
-- **Virtual Worlds**:
-  - Immersive 3D environments where users can explore, socialize, and participate in activities.
-  - Examples include Decentraland, The Sandbox, and VRChat.
-- **Digital Ownership**:
-  - Blockchain technology enables verifiable ownership of digital assets through NFTs.
-  - Users truly own their virtual items, land, avatars, and other assets.
-- **Interoperability**:
-  - Assets and identities can be transferred across different virtual environments.
-  - Standards and protocols are developed to support cross-platform interactions.
-- **Economy and Monetization**:
-  - Users can earn, spend, and invest in virtual currencies.
-  - Creators can monetize content and experiences.
-  - Decentralized marketplaces facilitate trading of virtual goods.
-- **Social Interaction**:
-  - Real-time communication and collaboration.
-  - Virtual events, conferences, concerts, and gatherings.
+- **Virtual Worlds**: Immersive 3D environments where users can explore, socialize, and participate in activities.
+- **Digital Ownership**: Blockchain technology enables verifiable ownership of digital assets through NFTs.
+- **Interoperability**: Assets and identities can be transferred across different virtual environments.
+- **Economy and Monetization**: Decentralized marketplaces facilitate trading of virtual goods.
+- **Social Interaction**: Real-time communication and collaboration including virtual events, conferences, concerts, and gatherings.
 
 #### Examples
 
-- **Decentraland**: A decentralized virtual world where users can purchase land, build experiences, and monetize content.
-  - Land parcels are represented as NFTs (ERC-721 tokens).
-- **The Sandbox**: A community-driven platform where creators can design, share, and monetize voxel assets and gaming experiences.
-  - Uses SAND tokens for transactions.
-- **Cryptovoxels**: A virtual world on Ethereum where users can buy land, build, and customize spaces.
-  - Focused on art galleries and exhibitions.
+- **Decentraland**: A decentralized virtual world where users can purchase land, build experiences, and monetize content. Land parcels are represented as NFTs (ERC-721 tokens).
+- **The Sandbox**: A community-driven platform where creators can design, share, and monetize voxel assets and gaming experiences. Uses SAND tokens for transactions.
+- **Cryptovoxels**: A virtual world on Ethereum where users can buy land, build, and customize spaces.Focused on art galleries and exhibitions.
 - **Somnium Space**: A VR world with its own economy and currency, allowing users to buy land, build, and interact in VR.
 
 #### Technologies Involved
@@ -1233,15 +1204,12 @@ Decentralized Autonomous Organizations (DAOs) are organizations represented by r
 
 #### Examples
 
-- **MakerDAO**:
-  - **Function**: Governs the Maker Protocol and the DAI stablecoin.
-  - **Features**: Holders of MKR tokens vote on proposals affecting the protocol.
-- **Aragon**:
-  - **Function**: Provides tools for creating and managing DAOs.
-  - **Features**: Offers customizable governance mechanisms and templates.
-- **MolochDAO**:
-  - **Function**: Focuses on funding Ethereum infrastructure projects.
-  - **Features**: Simple governance model with emphasis on minimalism and security.
+- **MakerDAO**: Governs the Maker Protocol and the DAI stablecoin.
+  - Holders of MKR tokens vote on proposals affecting the protocol.
+- **Aragon**: Provides tools for creating and managing DAOs.
+  - Offers customizable governance mechanisms and templates.
+- **MolochDAO**: Focuses on funding Ethereum infrastructure projects.
+  - Simple governance model with emphasis on minimalism and security.
 
 #### Use Cases
 

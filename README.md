@@ -292,21 +292,18 @@ Smart contracts are programs stored on a blockchain that execute automatically w
 
 #### Development Languages
 
-- [**Solidity**](https://soliditylang.org/):
+- [**Solidity**](https://soliditylang.org/)
   - **Syntax**: Similar to JavaScript.
   - **Features**: Supports inheritance, libraries, and complex user-defined types.
-- [**Vyper**](https://docs.vyperlang.org/en/stable/#):
+- [**Vyper**](https://docs.vyperlang.org/en/stable/#)
   - **Syntax**: Pythonic and aims for simplicity.
   - **Features**: Emphasizes security and auditability.
 
 #### Development Tools
 
-- **Remix IDE**:
-  - Online editor for writing and testing smart contracts.
-- **Truffle Suite**:
-  - Framework for development, testing, and deployment.
-- **Hardhat**:
-  - Development environment with debugging and testing features.
+- [**Remix IDE**](https://remix.ethereum.org): Online editor for writing and testing smart contracts.
+- [**Truffle Suite**](https://archive.trufflesuite.com/): Framework for development, testing, and deployment.
+- [**Hardhat**](https://hardhat.org/): Development environment with debugging and testing features.
 
 #### Security Considerations
 
@@ -317,13 +314,11 @@ Smart contracts are programs stored on a blockchain that execute automatically w
 - **Best Practices**:
   - **Audit Contracts**: Regularly review code.
   - **Use Safe Math Libraries**: Prevent numeric errors.
-  - **Follow Design Patterns**: Such as Checks-Effects-Interactions.
+  - **Follow Design Patterns**: Such as [Checks-Effects-Interactions](https://fravoll.github.io/solidity-patterns/checks_effects_interactions.html).
 
 #### References
 
 - [Smart Contracts Explained](https://ethereum.org/en/smart-contracts/)
-- [Solidity Documentation](https://docs.soliditylang.org/)
-- [Remix IDE](https://remix.ethereum.org/)
 - [Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 - [Ethereum Smart Contract Security](https://ethereum.org/en/developers/docs/smart-contracts/security/)
 - [What are Smart Contracts: Your Gateway to Ethereum’s Realm](https://medium.com/novai-blockchain-101/smart-contracts-your-gateway-to-ethereums-digital-realm-80ebb514617a)

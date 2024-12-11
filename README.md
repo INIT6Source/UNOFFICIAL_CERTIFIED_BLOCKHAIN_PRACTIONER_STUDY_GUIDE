@@ -223,8 +223,7 @@ Forks in blockchain occur when the network splits into two separate chains due t
 
 #### Types of Forks
 
-- **Hard Forks**:
-  - **Definition**: A radical change to the protocol that makes previously invalid blocks valid, or vice versa.
+- **Hard Forks**: Changes to the protocol that makes previously invalid blocks valid, or vice versa.
   - **Characteristics**:
     - Non-backward compatible.
     - Requires all nodes to upgrade to the new software.
@@ -235,8 +234,7 @@ Forks in blockchain occur when the network splits into two separate chains due t
     - **Ethereum Classic (ETC)**: Resulted from a hard fork after The DAO hack.
     - **Bitcoin Cash (BCH)**: Forked from Bitcoin over block size disputes.
 
-- **Soft Forks**:
-  - **Definition**: A backward-compatible protocol update.
+- **Soft Forks**: Backward-compatible protocol update.
   - **Characteristics**:
     - Nodes running old software recognize new blocks as valid.
     - Encourages gradual adoption.
@@ -268,7 +266,7 @@ Forks in blockchain occur when the network splits into two separate chains due t
 - [The DAO Hack Explained](https://www.coindesk.com/learn/2016/06/25/understanding-the-dao-attack/)
 - [Hard Fork vs. Soft Fork](https://www.investopedia.com/terms/h/hard-fork.asp)
 - [Ethical Considerations of Forks](https://medium.com/@peterborah/the-eth-classic-hard-fork-and-code-is-law-ethics-7931e921b9b4)
-
+- [Understanding Hard Forks and Soft Forks in Blockchain](https://medium.com/novai-blockchain-101/understanding-hard-forks-and-soft-forks-in-blockchain-dbd678eb95d4)
 ---
 
 ### 6. Smart Contracts
@@ -286,22 +284,18 @@ Smart contracts are programs stored on a blockchain that execute automatically w
 
 #### Components
 
-- **Functions**:
-  - Perform specific actions.
-  - **Visibility**: Public, private, internal, or external.
-- **State Variables**:
-  - Store data permanently on the blockchain.
-- **Modifiers**:
-  - Alter the behavior of functions (e.g., access control).
-- **Events**:
-  - Emit logs that can be captured by off-chain applications.
+- **Functions**: Perform specific actions.
+- **Visibility**: Public, private, internal, or external.
+- **State Variables**: Store data permanently on the blockchain.
+- **Modifiers**: Alter the behavior of functions (e.g., access control).
+- **Events**: Emit logs that can be captured by off-chain applications.
 
 #### Development Languages
 
-- **Solidity**:
+- [**Solidity**](https://soliditylang.org/):
   - **Syntax**: Similar to JavaScript.
   - **Features**: Supports inheritance, libraries, and complex user-defined types.
-- **Vyper**:
+- [**Vyper**](https://docs.vyperlang.org/en/stable/#):
   - **Syntax**: Pythonic and aims for simplicity.
   - **Features**: Emphasizes security and auditability.
 
@@ -332,7 +326,7 @@ Smart contracts are programs stored on a blockchain that execute automatically w
 - [Remix IDE](https://remix.ethereum.org/)
 - [Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/)
 - [Ethereum Smart Contract Security](https://ethereum.org/en/developers/docs/smart-contracts/security/)
-
+- [What are Smart Contracts: Your Gateway to Ethereum’s Realm](https://medium.com/novai-blockchain-101/smart-contracts-your-gateway-to-ethereums-digital-realm-80ebb514617a)
 ---
 
 ### 7. Decentralized Apps (DApps)

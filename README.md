@@ -365,6 +365,7 @@ DApps are applications that run on a decentralized network, utilizing smart cont
 - [MetaMask Wallet](https://metamask.io/)
 - [DappRadar](https://dappradar.com/)
 - [State of the DApps](https://www.stateofthedapps.com/)
+- [Unleashing the Future: Exploring Decentralized Applications (dApps) on Blockchain](https://medium.com/novai-blockchain-101/unleashing-the-future-exploring-decentralized-applications-dapps-on-blockchain-bcc2b60f2bdb)
 
 ---
 
@@ -372,13 +373,13 @@ DApps are applications that run on a decentralized network, utilizing smart cont
 
 #### Overview
 
-IPFS is a distributed system for storing and accessing files, websites, applications, and data. It uses a content-addressed approach, identifying content by its hash, which ensures data integrity and reduces duplication.
+IPFS is a distributed system for storing and accessing files, websites, applications, and data. It uses content-addressed systems instead of the traditional location-addressed approach used by HTTP, identifying content through its hash.
 
 #### Key Concepts
 
 - **Content-Based Addressing**:
   - Files are retrieved using their content hash (CID).
-  - Guarantees that the content has not been tampered with.
+  - Guarantees that the content hasn't been tampered with.
 - **Distributed Storage**:
   - Files are stored across a network of peers.
   - Enhances redundancy and availability.
@@ -388,12 +389,9 @@ IPFS is a distributed system for storing and accessing files, websites, applicat
 
 #### Use Cases
 
-- **Decentralized Websites**:
-  - Host websites on IPFS for improved resilience.
-- **Blockchain Metadata Storage**:
-  - Store large files off-chain to reduce blockchain bloat.
-- **Content Distribution**:
-  - Efficiently share large datasets or media files.
+- **Decentralized Websites**: Host websites on IPFS for improved resilience.
+- **Blockchain Metadata Storage**: Store large files off-chain to reduce blockchain bloat.
+- **Content Distribution**: Efficiently share large datasets or media files.
 
 #### Integration with Blockchain
 
@@ -410,6 +408,7 @@ IPFS is a distributed system for storing and accessing files, websites, applicat
 - [Hosting a Website on IPFS](https://docs.ipfs.io/how-to/host-single-page-site/)
 - [Pinata Cloud](https://pinata.cloud/)
 - [IPFS and NFTs](https://nftschool.dev/concepts/ipfs-for-nfts/)
+- [Web3: Demystifying IPFS (InterPlanetary File System)](https://medium.com/novai-blockchain-101/web3-demystifying-ipfs-interplanetary-file-system-2f26bebd9a71)
 
 ---
 

@@ -6,7 +6,7 @@
 
 #### Overview
 
-Nodes are fundamental components of a blockchain network. They are individual computers or devices that participate in the network by maintaining, validating, and broadcasting the distributed ledger. Nodes work collaboratively to ensure the integrity, security, and synchronization of the blockchain, making it decentralized and resilient against failures and attacks.
+Nodes server the foundation of a blockchain network. They're individual computers or devices that participate in the network by maintaining, validating, and broadcasting the distributed ledger. Nodes work collaboratively to ensure the integrity, security, and synchronization of the blockchain, making it decentralized and resilient against failure and attack.
 
 #### Types of Nodes
 
@@ -16,7 +16,6 @@ Nodes are fundamental components of a blockchain network. They are individual co
     - **Complete Ledger Maintenance**: Download and verify every block and transaction, ensuring they comply with the consensus rules.
     - **Independent Validation**: Independently validate transactions and blocks without relying on external sources.
     - **Consensus Enforcement**: Enforce the network's consensus rules, rejecting invalid blocks and transactions.
-    - **Security Enhancement**: Enhance the overall security and integrity of the blockchain network.
   - **Examples**:
     - **Bitcoin Core**: The reference implementation for the Bitcoin network.
     - **Geth (Go Ethereum)**: A widely used Ethereum client that can operate as a full node.
@@ -35,9 +34,8 @@ Nodes are fundamental components of a blockchain network. They are individual co
   - **Description**: Specialized nodes responsible for creating new blocks and securing the network.
   - **Features**:
     - **Block Production**: Propose and add new blocks to the blockchain.
-    - **Consensus Participation**: Actively participate in the consensus mechanism (e.g., PoW, PoS).
+    - **Consensus Participation**: Actively participate in the consensus mechanism (e.g., Proof of Work (PoW), Proof of Stake (PoW)).
     - **Earning Rewards**: Receive cryptocurrency rewards for their services.
-    - **Network Security**: Contribute to the network's security and integrity.
   - **Examples**:
     - **Bitcoin Miners**: Use computational power to solve PoW puzzles.
     - **Ethereum Validators**: Stake ETH to validate transactions in PoS.
@@ -48,27 +46,13 @@ Nodes are fundamental components of a blockchain network. They are individual co
 - **Security**: Independently verify transactions, reducing the risk of fraud.
 - **Network Health**: Ensure reliability, availability, and resistance to attacks.
 
-#### Activities
-
-- **Set Up an Ethereum Node Using Geth**:
-  - **Steps**:
-    1. **Install Geth**:
-       - Download from the [official website](https://geth.ethereum.org/downloads/).
-       - For macOS, you can use Homebrew: `brew tap ethereum/ethereum && brew install ethereum`.
-    2. **Initialize the Node**:
-       - Run `geth account new` to create a new account.
-    3. **Start Synchronization**:
-       - Execute `geth --syncmode "fast"` to begin syncing with the network.
-    4. **Interact Using the Console**:
-       - Use `geth attach` to open the JavaScript console.
-       - Interact with the node using Web3.js commands.
-
 #### References
 
 - [Ethereum Nodes and Clients](https://ethereum.org/en/developers/docs/nodes-and-clients/)
 - [Bitcoin Core](https://bitcoincore.org/)
 - [Running an Ethereum Node](https://geth.ethereum.org/docs/getting-started)
 - [Understanding Full Nodes](https://bitcoin.org/en/full-node)
+- [Hyperledger Fabric Peer Nodes: A Beginner’s Guide](https://medium.com/@supersimplearn/what-is-hyperledger-fabric-peer-nodes-a-beginners-guide-f55ec2ca8d81)
 
 ---
 
@@ -109,17 +93,7 @@ Mining is the process by which transactions are validated and added to a blockch
 #### Environmental Impact
 
 - **Energy Consumption**: Mining consumes large amounts of electricity, contributing to high operational costs and environmental concerns.
-- **Carbon Footprint Concerns**: If the energy source is non-renewable, mining can lead to significant carbon emissions.
-
-#### Activities
-
-- **Research ASIC Mining Impact**:
-  - **Objectives**:
-    - Understand how ASICs have influenced the mining industry.
-    - Analyze their effect on decentralization and network security.
-  - **Tasks**:
-    - Study the transition from CPU/GPU mining to ASIC dominance.
-    - Investigate how ASICs have led to the centralization of mining power.
+- **Carbon Footprint**: If the energy source is non-renewable, mining can lead to significant carbon emissions.
 
 #### References
 
@@ -128,6 +102,7 @@ Mining is the process by which transactions are validated and added to a blockch
 - [Ethereum Mining](https://eth.wiki/en/concepts/mining)
 - [ASIC Mining](https://en.bitcoin.it/wiki/ASIC)
 - [Environmental Impact of Mining](https://digiconomist.net/bitcoin-energy-consumption)
+- [Understanding Blockchain Miining](https://medium.com/novai-blockchain-101/understanding-blockchain-mining-b98fbe180d40)
 
 ---
 
@@ -141,30 +116,27 @@ Consensus algorithms enable distributed systems, like blockchains, to agree on a
 
 - **Proof of Work (PoW)**:
   - **Mechanism**: Miners solve computational puzzles to validate transactions and create new blocks.
-  - **Advantages**:
-    - High security due to the computational difficulty of attacks.
-  - **Disadvantages**:
-    - Energy-intensive and environmentally unsustainable.
-  - **Used By**:
-    - Bitcoin, Litecoin, and Ethereum (prior to The Merge).
+  - **Advantages**: High security due to the computational difficulty of attacks.
+  - **Disadvantages**: Energy-intensive and environmentally unsustainable.
+  - **Used By**: Bitcoin, Litecoin, and Ethereum (prior to The Merge).
 
 - **Proof of Stake (PoS)**:
   - **Mechanism**: Validators lock up cryptocurrency (stake) to participate in block validation.
-  - **Advantages**:
-    - Energy-efficient and scalable.
-  - **Disadvantages**:
-    - Potential for wealth concentration and centralization.
-  - **Used By**:
-    - Ethereum (post-Merge), Cardano, Polkadot.
+  - **Advantages**: Energy-efficient and scalable.
+  - **Disadvantages**: Potential for wealth concentration and centralization.
+  - **Used By**: Ethereum (post-Merge), Cardano, Polkadot.
 
 - **Delegated Proof of Stake (DPoS)**:
   - **Mechanism**: Stakeholders vote for delegates who validate transactions on their behalf.
-  - **Advantages**:
-    - Higher transaction throughput.
-  - **Disadvantages**:
-    - Increased centralization risk.
-  - **Used By**:
-    - EOS, TRON, Steem.
+  - **Advantages**: Higher transaction throughput.
+  - **Disadvantages**: Increased centralization risk.
+  - **Used By**: Burstcoin (now Signum).
+
+- **Proof of Elapsed Time (PoET)**
+  - **Mechanism**: Validators are assigned a random "sleep time," and the one whose timer finishes first earns the right to produce the next block.
+  - **Advantages**: Fairly distributes block production without excessive energy consumption.
+  - **Disadvantages**: Relies on specialized hardware for generating trusted wait times.
+  - **Used By**: Hyperledger Sawtooth (Sawtooth Lake).
 
 #### Comparing PoW and PoS in Ethereum
 
@@ -178,14 +150,6 @@ Consensus algorithms enable distributed systems, like blockchains, to agree on a
   - PoW: Mining pools can lead to centralization.
   - PoS: Lower barriers to entry may promote decentralization.
 
-#### Activities
-
-- **Compare PoW and PoS**:
-  - **Tasks**:
-    - Research energy consumption statistics before and after Ethereum's transition to PoS.
-    - Analyze changes in transaction speeds and fees.
-    - Discuss the impact on network decentralization.
-
 #### References
 
 - [Blockchain Consensus Mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
@@ -193,6 +157,7 @@ Consensus algorithms enable distributed systems, like blockchains, to agree on a
 - [Proof of Stake FAQs](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
 - [Security Considerations of PoS](https://vitalik.ca/general/2017/12/31/pos_faq.html)
 - [Delegated Proof of Stake](https://www.investopedia.com/terms/d/delegated-proof-of-stake-dpos.asp)
+- [Understanding Blockchain Consensus Algorithms](https://supersimplearn.medium.com/understanding-blockchain-consensus-algorithms-6d560fe67984)
 
 ---
 
@@ -263,6 +228,7 @@ Transactions are the actions that change the state of the blockchain. They can i
 - [Etherscan Transaction Tutorial](https://etherscan.io/txs)
 - [How to Read Ethereum Transactions](https://medium.com/coinmonks/how-to-read-ethereum-transactions-on-etherscan-32a6b7a1f4a6)
 - [EIP-1559: Fee Market Change](https://eips.ethereum.org/EIPS/eip-1559)
+- [Demystifying Blockchain Transactions](https://medium.com/novai-blockchain-101/demystifying-blockchain-transactions-c3bea3877ba5)
 
 ---
 

@@ -1,6 +1,7 @@
 # UNOFFICIAL CERTIFIED BLOCKCHAIN PRACTIONER STUDY GUIDE
 
 Add sections for Ethereum Request for Comments (ERC), Ethereum Improvement Proposals (EIPs), Private Blockchain, Bitcoin halving, Mining reward
+Fix markdown fomatting
 
 ## Module 1: Understanding the Basics
 

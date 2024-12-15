@@ -1,5 +1,7 @@
 # UNOFFICIAL CERTIFIED BLOCKCHAIN PRACTIONER STUDY GUIDE
 
+Add sections for Ethereum Request for Comments (ERC), Ethereum Improvement Proposals (EIPs), Private Blockchain, Bitcoin halving, Mining reward
+
 ## Module 1: Understanding the Basics
 
 ### 1. Nodes
@@ -681,12 +683,11 @@ Allows a single smart contract to manage multiple token types—both fungible an
   - Tokenized real-world assets with varying degrees of uniqueness
 
   **Metadata URI**: Uses a single URI with a placeholder `{id}` to fetch metadata for different token IDs.
-
   - Example: `https://token-cdn-domain/{id}.json`
+
 **Interface Identification**: ERC-1155 contracts can implement `ERC165` to signal supported interfaces.
 
 **Safe Transfers**: Requires the recipient to implement `IERC1155Receiver` for contract addresses, ensuring safe handling of tokens.
-
 
 **References**:
 

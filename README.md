@@ -562,7 +562,6 @@ The ERC-20 standard is a technical specification used for implementing fungible 
 
 **Approval Mechanism**: Enables a token holder to allow another address (usually a smart contract) to transfer tokens on their behalf.
 
-
   **Key Functions**:
   - `totalSupply()`: Returns the total token supply.
   - `balanceOf(address)`: Returns the account balance of a specific address.
@@ -1085,7 +1084,7 @@ Plasma is a Layer 2 scaling solution proposed to increase Ethereum's transaction
 
 ---
 
-### 2. Decentralized Finance (DeFi)
+### 5. Decentralized Finance (DeFi)
 
 Decentralized Finance (DeFi) is a blockchain-based form of finance that does not rely on central financial intermediaries such as banks or brokerages. Instead, it utilizes smart contracts on blockchains, the most common being Ethereum, to provide financial instruments. DeFi aims to democratize finance by replacing centralized institutions with peer-to-peer relationships and open, transparent protocols.
 
@@ -1140,7 +1139,7 @@ Decentralized Finance (DeFi) is a blockchain-based form of finance that does not
 
 ---
 
-### 3. Decentralized Autonomous Organizations (DAOs)
+### 6. Decentralized Autonomous Organizations (DAOs)
 
 Decentralized Autonomous Organizations (DAOs) are organizations represented by rules encoded as computer programs (smart contracts) that are transparent, controlled by organization members, and not influenced by a central government. The community governs and makes decisions about fund allocations and protocol changes.
 

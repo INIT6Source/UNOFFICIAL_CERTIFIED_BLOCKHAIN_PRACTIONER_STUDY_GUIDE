@@ -4,24 +4,24 @@ Bitcoin halving is a pre-programmed event within the Bitcoin protocol that reduc
 
 ---
 
-## Significance of Halving
+## **Significance**
 
-1. **Inflation Control** 
+### **Inflation Control**  
    - Bitcoin's halving mechanism mimics the scarcity dynamics of commodities like gold.  
    - By reducing the rate of new Bitcoin issuance, the system ensures that inflation decreases over time, making Bitcoin increasingly scarce as the supply approaches its fixed limit.  
    - This predictable supply reduction contrasts with fiat currencies, where inflation can be influenced by centralized monetary policies.
 
-2. **Market Impact**
+### **Market Impact**  
    - Historically, halvings have been followed by significant price increases due to the combination of reduced supply and sustained demand.  
    - Investors often anticipate these events, leading to speculative behavior and price volatility in the months surrounding each halving.  
 
-3. **Economic Incentives**
+### **Economic Incentives**  
    - As rewards decline, miners must optimize their operations, adopt energy-efficient hardware, or consolidate resources to remain competitive.  
    - Halving encourages innovation in mining technology and shifts miner revenue reliance toward transaction fees as the block reward diminishes.
 
 ---
 
-## Historical Halvings
+## **Historical Halvings**
 
 ### **2012**
 - Reduced from 50 BTC to 25 BTC.  
@@ -44,20 +44,19 @@ Bitcoin halving is a pre-programmed event within the Bitcoin protocol that reduc
 
 ### **2028**
 - Reduced from 3.125 BTC to 1.5625 BTC.  
-- Significant impact on price and miner behavior, as Bitcoin edges closer to its fixed supply cap.
 
 ---
 
-## Impacts on Mining
+## **Impacts**
 
-1. **Profitability Challenges**
+### **Profitability Challenges**  
    - The 50% reduction in block rewards can make mining unprofitable for smaller or inefficient miners.  
    - Operators must focus on cost-effective electricity sources, such as renewable energy and high-performance hardware.
 
-2. **Consolidation of Mining Power**
-   - Smaller operators exiting the market may lead to increased centralization posing potential risks to Bitcoin's decentralization ethos and network security.
+### **Consolidation of Power**  
+   - Smaller operators exiting the market may lead to increased centralization, posing potential risks to Bitcoin's decentralization ethos and network security.
 
-3. **Transaction Fees as Revenue**
+### **Transaction Fees as Revenue**  
    - As block rewards diminish over time, transaction fees are expected to become the primary source of income for miners.  
    - This shift will depend on Bitcoin’s ability to sustain high transaction volumes or alternative scaling solutions like the Lightning Network.
 
@@ -68,5 +67,5 @@ Bitcoin halving is a pre-programmed event within the Bitcoin protocol that reduc
 - [Bitcoin Halving Countdown](https://www.bitcoinblockhalf.com/)  
 - [Bitcoin’s Monetary Policy](https://bitcoin.org/en/bitcoin-paper)  
 - [The Great Bitcoin Halving: A Look at the Past, Present, and Future](https://medium.com/novai-blockchain-101/the-great-bitcoin-halving-a-look-at-the-past-present-and-future-55a23d5df28d)  
-- [Understanding Bitcoin Halving and Its Impacts](https://www.investopedia.com/bitcoin-halving-4843769)
+- [Understanding Bitcoin Halving and Its Impacts](https://www.investopedia.com/bitcoin-halving-4843769)  
 - [Lightning Network](https://lightning.network/)

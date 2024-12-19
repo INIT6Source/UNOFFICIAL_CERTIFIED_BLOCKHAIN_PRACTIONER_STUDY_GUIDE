@@ -1,12 +1,10 @@
 # Consensus Algorithms
 
-Consensus algorithms enable distributed systems, like blockchains, to agree on a single source of truth. They ensure that all nodes in the network maintain a consistent ledger, despite potential failures or malicious actors.
+Consensus algorithms enable distributed systems, like blockchain, to agree on a single source of truth. They ensure that all nodes in the network maintain a consistent ledger, despite potential failures or malicious actors.
 
 ---
 
-## Common Consensus Algorithms
-
-### **1. Proof of Work (PoW)**
+## **Proof of Work (PoW)**
 Miners solve computational puzzles to validate transactions and create new blocks.
 
 - **Advantages**: High security due to the computational difficulty of attacks.
@@ -15,7 +13,7 @@ Miners solve computational puzzles to validate transactions and create new block
 
 ---
 
-### **2. Proof of Stake (PoS)**
+## **Proof of Stake (PoS)**
 Validators lock up cryptocurrency (stake) to participate in block validation.
 
 - **Advantages**: Energy-efficient and scalable.
@@ -24,7 +22,7 @@ Validators lock up cryptocurrency (stake) to participate in block validation.
 
 ---
 
-### **3. Delegated Proof of Stake (DPoS)**
+### **Delegated Proof of Stake (DPoS)**
 Stakeholders vote for delegates who validate transactions on their behalf.
 
 - **Advantages**: Higher transaction throughput.
@@ -33,7 +31,7 @@ Stakeholders vote for delegates who validate transactions on their behalf.
 
 ---
 
-### **4. Proof of Elapsed Time (PoET)**
+### **Proof of Elapsed Time (PoET)**
 Validators are assigned a random "sleep time," and the one whose timer finishes first earns the right to produce the next block.
 
 - **Advantages**: Fairly distributes block production without excessive energy consumption.
@@ -42,17 +40,25 @@ Validators are assigned a random "sleep time," and the one whose timer finishes 
 
 ---
 
+### **Proof of Authority (PoA)**
+Validators are pre-approved and rely on their reputation to validate transactions and produce new blocks.
+
+- **Advantages**: High efficiency and scalability, making it suitable for private or consortium blockchains.
+- **Disadvantages**: Limited decentralization due to reliance on a small group of validators.
+- **Used By**: HVeChain, xDai
+---
+
 ## Comparing PoW and PoS in Ethereum
 
-### **1. Energy Consumption**
+### **Energy Consumption**
 - **PoW**: High energy usage due to mining hardware.
 - **PoS**: Significantly reduced energy consumption.
 
-### **2. Security**
-- **PoW**: Security comes from the computational work required.
-- **PoS**: Security is derived from economic incentives and penalties.
+### **Security**
+- **PoW**: Comes from the computational work required.
+- **PoS**: Derived from economic incentives and penalties.
 
-### **3. Decentralization**
+### **Decentralization**
 - **PoW**: Mining pools can lead to centralization.
 - **PoS**: Lower barriers to entry may promote decentralization.
 
@@ -63,6 +69,7 @@ Validators are assigned a random "sleep time," and the one whose timer finishes 
 - [Blockchain Consensus Mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
 - [Understanding the Ethereum Merge](https://ethereum.org/en/upgrades/merge/)
 - [Proof of Stake FAQs](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
-- [Security Considerations of PoS](https://vitalik.ca/general/2017/12/31/pos_faq.html)
-- [Delegated Proof of Stake](https://www.investopedia.com/terms/d/delegated-proof-of-stake-dpos.asp)
+- [Delegated Proof of Stake](https://www.ledger.com/academy/what-is-delegated-proof-of-stake-dpos)
 - [Understanding Blockchain Consensus Algorithms](https://supersimplearn.medium.com/understanding-blockchain-consensus-algorithms-6d560fe67984)
+- [Proof of Elapsed Time](https://www.investopedia.com/terms/p/proof-elapsed-time-cryptocurrency.asp)
+- [Proof of Authority](https://www.coindesk.com/learn/what-is-proof-of-authority)

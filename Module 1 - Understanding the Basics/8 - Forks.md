@@ -1,33 +1,34 @@
 # Forks
 
-Forks in blockchain occur when the network splits into two separate chains due to changes in protocol or disagreements among participants. Forks are essential for implementing upgrades, introducing new features, or fixing critical issues.
+Forks occur when the blockchain network splits into two separate chains due to protocol changes or disagreements among participants. Forks are essential for implementing upgrades, introducing new features, or fixing critical issues.
 
 ---
 
-## Types of Forks
+## **Hard Forks**
 
-### **1. Hard Forks**
-Changes to the protocol that make previously invalid blocks valid, or vice versa.
-
-- **Characteristics**:
+**Characteristics**
+  - Changes to the protocol that make previously invalid blocks valid, or vice versa.
   - Non-backward compatible.
   - Requires all nodes to upgrade to the new software.
-- **Potential Outcomes**:
+
+**Potential Outcomes**
   - Successful upgrade if the majority supports it.
   - Permanent split if there is disagreement.
-- **Examples**:
+
+**Examples**
   - **Ethereum Classic (ETC)**: Resulted from a hard fork after The DAO hack.
   - **Bitcoin Cash (BCH)**: Forked from Bitcoin over block size disputes.
 
 ---
 
-### **2. Soft Forks**
-Backward-compatible protocol updates.
+### **Soft Forks**
 
-- **Characteristics**:
+**Characteristics**
+  - Backward-compatible protocol updates.
   - Nodes running old software recognize new blocks as valid.
   - Encourages gradual adoption.
-- **Examples**:
+
+**Examples**
   - **Bitcoin's SegWit**: Improved scalability without splitting the network.
 
 ---
@@ -43,14 +44,14 @@ Backward-compatible protocol updates.
 
 ## Case Study: Ethereum Classic Fork
 
-### **The DAO Incident**
+**The DAO Incident**
 - In 2016, The DAO, a decentralized autonomous organization, was exploited due to a vulnerability, resulting in significant ETH loss.
 
-### **Community Response**
+**Community Response**
 - Debate on whether to implement a hard fork to reverse the exploit.
 - Ethical considerations about blockchain immutability.
 
-### **Outcome**
+**Outcome**
 - **Ethereum (ETH)**: Implemented the hard fork to recover funds.
 - **Ethereum Classic (ETC)**: Continued on the original chain, maintaining that "code is law."
 
@@ -58,9 +59,9 @@ Backward-compatible protocol updates.
 
 ## References
 
-- [Understanding Blockchain Forks](https://ethereum.org/en/developers/docs/forks/)  
-- [Ethereum Classic History](https://ethereumclassic.org/history)  
-- [The DAO Hack Explained](https://www.coindesk.com/learn/2016/06/25/understanding-the-dao-attack/)  
+- [Hard and Soft Blockchain Forks](https://freemanlaw.com/hard-and-soft-forks-a-detailed-and-simplified-explanation-of-how-blockchains-evolve/)  
+- [Ethereum Classic History](https://kriptomat.io/cryptocurrency-prices/ethereum-classic-etc-price/what-is/)  
+- [The DAO Hack Explained](https://www.gemini.com/cryptopedia/the-dao-hack-makerdao#section-the-dao-hack)  
 - [Hard Fork vs. Soft Fork](https://www.investopedia.com/terms/h/hard-fork.asp)  
-- [Ethical Considerations of Forks](https://medium.com/@peterborah/the-eth-classic-hard-fork-and-code-is-law-ethics-7931e921b9b4)  
+- [Ethical Considerations of Forks](https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2019.00009/full)  
 - [Understanding Hard Forks and Soft Forks in Blockchain](https://medium.com/novai-blockchain-101/understanding-hard-forks-and-soft-forks-in-blockchain-dbd678eb95d4)

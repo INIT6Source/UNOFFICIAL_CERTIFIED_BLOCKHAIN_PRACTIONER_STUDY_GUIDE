@@ -55,7 +55,6 @@ Files in IPFS are identified and retrieved using their Content Identifier (CID),
 - [IPFS Official Site](https://ipfs.io/)  
 - [Understanding IPFS](https://docs.ipfs.io/concepts/what-is-ipfs/)  
 - [Hosting a Website on IPFS](https://docs.ipfs.io/how-to/host-single-page-site/)  
-- [Pinata Cloud](https://pinata.cloud/)  
-- [IPFS and NFTs](https://nftschool.dev/concepts/ipfs-for-nfts/)  
+- [Pinata Cloud](https://pinata.cloud/) 
 - [Web3: Demystifying IPFS (InterPlanetary File System)](https://medium.com/novai-blockchain-101/web3-demystifying-ipfs-interplanetary-file-system-2f26bebd9a71)  
 

@@ -1,6 +1,6 @@
 # ERC-20 (Fungible Tokens)
 
-The ERC-20 standard is the most widely adopted token standard, enabling the creation and management of fungible tokens. Fungible tokens are interchangeable, meaning each unit is identical and has the same value as any other unit of the token. The ERC-20 standard ensures that tokens can interact seamlessly with wallets, decentralized applications (DApps), exchanges, and other smart contracts.
+ERC-20 is the most widely adopted token standard, enabling the creation and management of fungible tokens. Fungible tokens are interchangeable, meaning each unit is identical and has the same value as any other unit of the token. The ERC-20 standard ensures that tokens can interact seamlessly with wallets, decentralized applications (DApps), exchanges, and other smart contracts.
 
 ---
 

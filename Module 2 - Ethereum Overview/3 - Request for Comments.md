@@ -1,8 +1,6 @@
 # **Ethereum Request for Comments (ERC)**
 
-Ethereum Request for Comments (ERCs) are technical documents that define standards and practices for implementing functionalities within the Ethereum ecosystem. These standards serve as blueprints for ensuring compatibility and interoperability between applications, tokens, and smart contracts. By providing clear guidelines, ERCs help developers create reliable and consistent decentralized applications (DApps) and token systems on Ethereum.
-
-ERCs are proposals submitted by developers in the Ethereum community. They undergo rigorous review, discussion, and iterations through the Ethereum Improvement Proposal (EIP) process before becoming widely adopted standards. ERCs play a key role in fostering innovation, enhancing usability, and ensuring seamless integration across the Ethereum ecosystem.
+Ethereum Request for Comments (ERCs) are technical documents that define standards and practices for implementing functionalities within the Ethereum ecosystem, serving as blueprints for ensuring compatibility and interoperability between applications, tokens, and smart contracts. Proposed by developers in the Ethereum community, ERCs undergo rigorous review, discussion, and iterations through the Ethereum Improvement Proposal (EIP) process before being widely adopted as standards. By providing clear guidelines, ERCs help developers create reliable and consistent decentralized applications (DApps) and token systems while fostering innovation, enhancing usability, and ensuring seamless integration across the Ethereum ecosystem.
 
 ---
 
@@ -30,7 +28,7 @@ ERCs are proposals submitted by developers in the Ethereum community. They under
 ### **ERC-884**
 - **Description**: Token standard for representing corporate shares on Ethereum.  
 - **Purpose**: Compliance-focused equity tokenization.  
-- **Key Features**: KYC/AML checks for shareholders.  
+- **Key Features**: [KYC/AML](https://www.dowjones.com/professional/risk/glossary/anti-money-laundering/kyc-vs-aml/) checks for shareholders.  
 - **Use Cases**: Private equity, compliant securities trading.  
 - **References**: [ERC-884 Proposal](https://github.com/ethereum/EIPs/issues/884)
 
@@ -63,20 +61,20 @@ ERCs are proposals submitted by developers in the Ethereum community. They under
    - Facilitates the creation of new functionalities tailored to evolving needs.
 
 ### **Adoption**
-   - ERCs like ERC-20 and ERC-721 have become foundational across DeFi, NFTs, and beyond.
+   - ERCs like ERC-20 and ERC-721 have become foundational across DeFi and NFTs.
 
 ---
 
 ## **How ERCs Are Developed**
 
-### **Submission**
+### **1. Submission**
    - Developers submit ERCs as part of the Ethereum Improvement Proposal (EIP) process.  
 
-### **Discussion and Review**
-   - The community reviews and refines proposals through open discussions.  
+### **2. Discussion and Review**
+   - The community reviews and refines proposals through open discussion.  
 
-### **Consensus and Adoption**  
-   - Accepted ERCs become widely used standards in the ecosystem.
+### **3. Consensus and Adoption**  
+   - Accepted ERCs become widely used standards.
 
 ---
 

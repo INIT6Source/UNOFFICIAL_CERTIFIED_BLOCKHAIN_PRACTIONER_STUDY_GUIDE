@@ -1,6 +1,6 @@
 # Transactions
 
-Transactions are the actions that change the state of the blockchain. They can involve transferring cryptocurrency between accounts or invoking functions on smart contracts. Once included in a block and confirmed, transactions become part of the immutable ledger.
+Transactions are the actions that change the state of the blockchain. They can involve transferring cryptocurrency between accounts or invoking smart contracts. Once included in a block and confirmed, transactions become part of the immutable ledger.
 
 ---
 
@@ -35,7 +35,7 @@ Transactions are the actions that change the state of the blockchain. They can i
 ---
 
 ## **Gas Mechanics**
-**EIP-1559 Upgrade**: Introduced a dual fee model with a base fee and priority fee:  
+**EIP-1559 Upgrade**: Introduced a dual fee model with a base fee and priority fee 
 - **Base Fee**: Adjusts dynamically based on network congestion.  
 - **Priority Fee (Tip)**: Optional fee to incentivize miners/validators.  
 

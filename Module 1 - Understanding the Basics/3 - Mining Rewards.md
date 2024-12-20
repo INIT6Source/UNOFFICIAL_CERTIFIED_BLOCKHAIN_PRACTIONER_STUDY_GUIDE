@@ -17,7 +17,7 @@ Mining rewards are a fundamental part of many blockchain ecosystems, serving as 
 # Bitcoin Example
 
 - **Genesis Block**: The first block mined in Bitcoin's blockchain carried a reward of 50 BTC.  
-- **Current Reward**: As of the 2020 halving, the block reward has been reduced to 6.25 BTC.  
+- **Current Reward**: As of the 2024 halving, the block reward has been reduced to 3.125 BTC.  
 - **Future**: Bitcoin's block rewards will continue to halve approximately every four years until they reach zero around the year 2140, leaving transaction fees as the sole incentive.
 
 ---
@@ -45,7 +45,7 @@ Mining rewards are a fundamental part of many blockchain ecosystems, serving as 
 
 ## **Centralization Risk**
 
-- Reduced profitability may drive smaller miners out of the market, concentrating power in the hands of large, well-capitalized entities.  
+- Reduced profitability may drive smaller miners out of the market, concentrating power in the hands of large, well-funded entities.  
 - This centralization undermines the decentralization ethos of blockchain networks and poses security risks.
 
 ---

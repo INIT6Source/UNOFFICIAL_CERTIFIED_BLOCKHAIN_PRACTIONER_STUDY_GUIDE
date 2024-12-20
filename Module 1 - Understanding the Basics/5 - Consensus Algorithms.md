@@ -1,52 +1,48 @@
 # Consensus Algorithms
 
-Consensus algorithms enable distributed systems, like blockchain, to agree on a single source of truth. They ensure that all nodes in the network maintain a consistent ledger, despite potential failures or malicious actors.
+Consensus algorithms enable distributed systems, like blockchain(s), to agree on a single source of truth. They ensure that all nodes in the network maintain a consistent ledger, despite potential failures or malicious actors.
 
 ---
 
 ## **Proof of Work (PoW)**
 
-Miners solve computational puzzles to validate transactions and create new blocks.
+- Miners solve computational puzzles to validate transactions and create new blocks.
 
 - **Advantages**: High security due to the computational difficulty of attacks.
 - **Disadvantages**: Energy-intensive and environmentally unsustainable.
 - **Used By**: Bitcoin, Litecoin, and Ethereum (prior to The Merge).
 
----
-
 ## **Proof of Stake (PoS)**
 
-Validators lock up cryptocurrency (stake) to participate in block validation.
+- Validators lock up cryptocurrency (stake) to participate in block validation.
 
 - **Advantages**: Energy-efficient and scalable.
 - **Disadvantages**: Potential for wealth concentration and centralization.
 - **Used By**: Ethereum (post-Merge), Cardano, Polkadot.
 
----
 
 ### **Delegated Proof of Stake (DPoS)**
 
-Stakeholders vote for delegates who validate transactions on their behalf.
+- Stakeholders vote for delegates who validate transactions on their behalf.
 
 - **Advantages**: Higher transaction throughput.
 - **Disadvantages**: Increased centralization risk.
 - **Used By**: Burstcoin (now Signum).
 
----
 
 ### **Proof of Elapsed Time (PoET)**
 
-Validators are assigned a random "sleep time," and the one whose timer finishes first earns the right to produce the next block.
+- Validators are assigned a random "sleep time," and the one whose timer finishes first earns the right to produce the next block.
 
 - **Advantages**: Fairly distributes block production without excessive energy consumption.
 - **Disadvantages**: Relies on specialized hardware for generating trusted wait times.
 - **Used By**: Hyperledger Sawtooth (Sawtooth Lake).
 
----
+
 
 ### **Proof of Authority (PoA)**
 
-Validators are pre-approved and rely on their reputation to validate transactions and produce new blocks.
+- Validators are pre-approved and rely on their reputation to validate transactions and produce new blocks.
 
 - **Advantages**: High efficiency and scalability, making it suitable for private or consortium blockchains.
 - **Disadvantages**: Limited decentralization due to reliance on a small group of validators.

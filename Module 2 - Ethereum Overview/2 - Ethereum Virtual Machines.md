@@ -7,26 +7,26 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
 ## **Characteristics**
 
 ### **Turing-Complete**
-- **Implication**: Capable of performing any computation given enough resources.  
-- **Benefit**: Enables developers to implement complex logic and algorithms in smart contracts.
+- Capable of performing any computation given enough resources.  
+- Enables developers to implement complex logic and algorithms in smart contracts.
 
 ### **Isolation**
-- **Sandboxed Environment**: Smart contracts run in a secure, isolated environment.  
-- **Purpose**: Prevents contracts from accessing the underlying system or interfering with other contracts.
+- Smart contracts run in a secure, sandboxed environment.  
+- Prevents contracts from accessing the underlying system or interfering with other contracts.
 
 ### **Deterministic Execution**
-- **Consistency**: Ensures that the same operations produce identical results on every node in the network.
+- Ensures that the same operations produce identical results on every node in the network.
 
 ### **Stack-Based Architecture**
-- **Execution Model**: Operates with a stack for storing operands and executing operations.  
-- **Operation**: Instructions manipulate values at the top of the stack.
+- Operates with a stack for storing operands and executing operations.  
+- Instructions manipulate values at the top of the stack.
 
 ---
 
 ## **EVM Bytecode**
 
 ### **Compilation**
-- Smart contracts written in high-level languages (e.g., Solidity) are compiled into EVM bytecode.  
+- Smart contracts written in high-level languages, e.g., Solidity, are compiled into EVM bytecode.  
 - Bytecode is the low-level instruction set executed by the EVM.
 
 ### **Opcodes**
@@ -57,8 +57,7 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
 
 ### **Gas Price**
 - The Ether price a user offers per unit of gas.  
-- **Transaction Fee Formula**:  
-  `Transaction Fee = Gas Used × Gas Price`
+- **Transaction Fee Formula**: `Transaction Fee = Gas Used × Gas Price`
 
 ### **EIP-1559 Fee Model**
 - **Base Fee**:
@@ -76,7 +75,7 @@ The Ethereum Virtual Machine (EVM) is the runtime environment for smart contract
 - Deploy and execute decentralized applications (DApps) on Ethereum.
 
 ### **Cross-Platform Compatibility**
-- EVM-compatible blockchains (e.g., Binance Smart Chain, Polygon) use the same architecture, allowing seamless deployment of Ethereum contracts.
+- EVM-compatible blockchains, e.g., Binance Smart Chain, Polygon, use the same architecture, allowing seamless deployment of Ethereum contracts.
 
 ### **Decentralized Finance (DeFi)**
 - Powers lending platforms, decentralized exchanges, and yield farming protocols.

@@ -40,10 +40,9 @@ Bitcoin halving is a pre-programmed event within the Bitcoin protocol that reduc
 
 ### **2024**
 - Reduced from 6.25 BTC to 3.125 BTC.  
-- Significant impact on price and miner behavior, as Bitcoin edges closer to its fixed supply cap.
 
 ### **2028**
-- Reduced from 3.125 BTC to 1.5625 BTC.  
+- Reduction from 3.125 BTC to 1.5625 BTC.  
 
 ---
 
@@ -54,10 +53,10 @@ Bitcoin halving is a pre-programmed event within the Bitcoin protocol that reduc
    - Operators must focus on cost-effective electricity sources, such as renewable energy and high-performance hardware.
 
 ### **Consolidation of Power**  
-   - Smaller operators exiting the market may lead to increased centralization, posing potential risks to Bitcoin's decentralization ethos and network security.
+   - Smaller operators exiting the market may lead to increased centralization, posing potential risks to Bitcoin's decentralization and network security.
 
 ### **Transaction Fees as Revenue**  
-   - As block rewards diminish over time, transaction fees are expected to become the primary source of income for miners.  
+   - As block rewards diminish, transaction fees are expected to become the primary source of income for miners.  
    - This shift will depend on Bitcoin’s ability to sustain high transaction volumes or alternative scaling solutions like the Lightning Network.
 
 ---

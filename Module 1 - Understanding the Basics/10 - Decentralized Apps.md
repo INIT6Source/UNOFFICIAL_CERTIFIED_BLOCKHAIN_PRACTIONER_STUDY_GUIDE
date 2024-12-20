@@ -17,19 +17,19 @@ DApps are applications that run on decentralized networks, utilizing smart contr
 
 ### **Finance (DeFi)**  
 - Provides financial services without intermediaries.  
-- Examples: Aave, Compound.  
+- **Examples**: Aave, Compound.  
 
 ### **Gaming**  
 - Enables games with blockchain-based assets.  
-- Examples: Decentraland, CryptoKitties.  
+- **Examples**: Decentraland, CryptoKitties.  
 
 ### **Social Media**  
 - Platforms governed by users to enhance control and transparency.  
-- Examples: Mastodon, Steemit.  
+- **Examples**: Mastodon, Steemit.  
 
 ### **Marketplaces**  
 - Platforms for trading digital or physical goods, often leveraging blockchain-based ownership.  
-- Examples: OpenSea, Rarible.  
+- **Examples**: OpenSea, Rarible.  
 
 ---
 

@@ -24,7 +24,7 @@ Forks occur when the blockchain network splits into two separate chains due to p
 ## **Soft Forks**
 
 ### **Characteristics**
-- Backward-compatible protocol updates.  
+- Backward compatible.
 - Nodes running old software recognize new blocks as valid.  
 - Encourages gradual adoption.  
 

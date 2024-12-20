@@ -1,6 +1,6 @@
 # ERC-20 (Fungible Tokens)
 
-The ERC-20 standard is the most widely adopted token standard on the Ethereum blockchain, enabling the creation and management of fungible tokens. Fungible tokens are interchangeable, meaning each unit is identical and has the same value as any other unit of the token. The ERC-20 standard ensures that tokens can interact seamlessly with wallets, decentralized applications (DApps), exchanges, and other smart contracts, fostering compatibility and interoperability within the Ethereum ecosystem.
+The ERC-20 standard is the most widely adopted token standard, enabling the creation and management of fungible tokens. Fungible tokens are interchangeable, meaning each unit is identical and has the same value as any other unit of the token. The ERC-20 standard ensures that tokens can interact seamlessly with wallets, decentralized applications (DApps), exchanges, and other smart contracts.
 
 ---
 
@@ -10,25 +10,17 @@ The ERC-20 standard is the most widely adopted token standard on the Ethereum bl
 - Provides a consistent interface for token implementation, ensuring all ERC-20 tokens share the same core functionality.
 - Includes functions for balance checks, transfers, and approvals for third-party management.
 
----
-
 ### **Interoperability**
-- **Seamless Integration**: Works with wallets like MetaMask and Trust Wallet, and platforms like Uniswap.  
-- **Compatibility**: Adheres to a standard that ensures uniform integration with Ethereum-based protocols.
-
----
+- Works with wallets like MetaMask and Trust Wallet, and platforms like Uniswap.  
+- Adheres to a standard that ensures uniform integration with Ethereum-based protocols.
 
 ### **Transferability**
 - Enables direct token transfers and programmatically approved transfers.  
 - Functions like `transfer()` and `transferFrom()` allow efficient movement of tokens across accounts.
 
----
-
 ### **Approval Mechanism**
 - Allows a third party (e.g., a smart contract) to transfer tokens on behalf of a user.  
 - Uses functions like `approve()` and `allowance()` for authorization and checks.
-
----
 
 ### **Transparency**
 - Events like `Transfer` and `Approval` log transactions and approvals on-chain, ensuring auditable and immutable transaction histories.
@@ -53,16 +45,6 @@ The ERC-20 standard is the most widely adopted token standard on the Ethereum bl
 
 ---
 
-## **Events**
-
-### **Transfer**
-- `Transfer(address indexed from, address indexed to, uint256 value)`: Logs token transfers between addresses.
-
-### **Approval**
-- `Approval(address indexed owner, address indexed spender, uint256 value)`: Logs approvals for third-party token transfers.
-
----
-
 ## **Use Cases**
 
 ### **Cryptocurrencies**
@@ -84,18 +66,18 @@ The ERC-20 standard is the most widely adopted token standard on the Ethereum bl
 
 ## **Advantages**
 
-- **Standardization**: Ensures consistency across tokens.  
-- **Interoperability**: Supported widely across Ethereum-based platforms.  
-- **Transparency**: Public transaction logs foster trust.  
-- **Programmability**: Enables advanced use cases like automated rewards and governance.  
+- Ensures consistency across tokens.  
+- Supported widely across Ethereum-based platforms.  
+- Public transaction logs foster trust.  
+- Enables advanced use cases like automated rewards and governance.  
 
 ---
 
 ## **Limitations**
 
-- **High Gas Costs**: Transactions can be expensive during peak network activity.  
-- **Approval Friction**: Requires users to manually approve DApps for transfers.  
-- **Precision Complexity**: Developers must define decimal settings for divisibility.  
+- Transactions can be expensive during peak network activity.  
+- Requires users to manually approve DApps for transfers.  
+- Developers must define decimal settings for divisibility.  
 
 ---
 

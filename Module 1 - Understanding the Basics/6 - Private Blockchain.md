@@ -1,6 +1,6 @@
 # Private Blockchain
 
-A private blockchain is a permissioned blockchain network where access is restricted to specific participants. Unlike public blockchains (e.g., Bitcoin or Ethereum), which are open to anyone and fully decentralized, private blockchains focus on control, security, and operational efficiency. They're often used by businesses to streamline processes, maintain data privacy, and achieve higher scalability.
+A private blockchain is a permissioned blockchain network where access is restricted to specific participants. Unlike public blockchains, e.g., Bitcoin or Ethereum, which are open to anyone and fully decentralized, private blockchains focus on control, security, and operational efficiency. They're often used by businesses to streamline processes, maintain data privacy, and achieve higher scalability.
 
 ---
 
@@ -26,12 +26,12 @@ A private blockchain is a permissioned blockchain network where access is restri
 ## **Use Cases**
 
 ### **Healthcare**
-Secures sensitive medical data, enabling privacy-preserving data sharing between healthcare providers, patients, and researchers.  
+- Secures sensitive medical data, enabling privacy-preserving data sharing between healthcare providers, patients, and researchers.  
 - **Example**: Patientory and Medicalchain leverage private blockchains to store patient records and manage access permissions.  
 - **Benefits**: Enhances patient privacy, improves interoperability, and reduces administrative inefficiencies.
 
 ### **Consortiums**
-Facilitates collaboration among industry players, enabling shared infrastructure without compromising privacy.  
+- Facilitates collaboration among industry players, enabling shared infrastructure without compromising privacy.  
 - **Example**: Hyperledger Fabric is widely used by consortiums in industries such as finance, insurance, and logistics.  
 - **Benefits**: Encourages data sharing, reduces duplication of efforts, and fosters industry innovation.
 
@@ -44,7 +44,7 @@ Facilitates collaboration among industry players, enabling shared infrastructure
    - Controlled access reduces the risk of unauthorized activity or external attacks.
 
 ### **Reduced Energy Consumption**  
-   - Often use lightweight consensus mechanisms (e.g., PBFT), which are more energy-efficient compared to Proof of Work (PoW).  
+   - Often use lightweight consensus mechanisms, e.g., PBFT, which are more energy-efficient compared to Proof of Work (PoW).  
 
 ### **Faster Transaction Processing**  
    - With fewer nodes and a streamlined consensus process, private blockchains achieve high transaction speeds suitable for enterprise use.  

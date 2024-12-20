@@ -1,6 +1,6 @@
 # Nodes
 
-Nodes serve as the foundation of blockchain networks. They're individual computers or devices that participate in the network by maintaining, validating, and broadcasting the distributed ledger. Nodes work collaboratively, ensuring the integrity, security, and synchronization of the blockchain, making it decentralized and resilient against failure and attack.
+Nodes serve as the foundation of blockchain networks. They're individual computers or devices that participate in the network by maintaining, validating, and broadcasting the distributed ledger. Nodes work collaboratively, ensuring the integrity, security, and the synchronization of the blockchain, making it decentralized and resilient against failure and attack.
 
 ---
 

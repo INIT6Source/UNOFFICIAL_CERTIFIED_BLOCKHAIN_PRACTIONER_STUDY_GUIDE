@@ -6,4 +6,5 @@ Ethereum tokens are digital assets built on top of the Ethereum blockchain, foll
 
 ## References
 
-- [Ethereum Token Standards](https://ethereum.org/en/developers/docs/standards/tokens/)  
+- [Ethereum Token Standards](https://ethereum.org/en/developers/docs/standards/tokens/)
+- [List of all ERC Token Standards in 2023](https://web3.career/learn-web3/erc-token-standards)

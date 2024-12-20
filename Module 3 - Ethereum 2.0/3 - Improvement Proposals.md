@@ -6,28 +6,26 @@ Ethereum Improvement Proposals (EIPs) are technical design documents that outlin
 
 ## **Types of EIPs**
 
-Ethereum Improvement Proposals are categorized based on their scope and impact
-
 ### **Core EIPs**
-- Core EIPs propose changes that directly affect the Ethereum protocol, including consensus rules, network upgrades, and block validation processes. These are critical for Ethereum's core functionality and often require network-wide upgrades (hard forks).  
+- Core EIPs propose changes that directly affect the Ethereum protocol, including consensus rules, network upgrades, and block validation processes. 
+- These are critical for Ethereum's core functionality and often require network-wide upgrades (hard forks).  
 - Core EIPs are essential for Ethereum's stability, security, and scalability.  
 - **Example**: EIP-1559 introduced a new transaction fee mechanism with a base fee that is burned, reducing fee volatility and enhancing Ethereum's deflationary properties.  
 
 ### **ERCs (Ethereum Request for Comments)**
-- *ERCs define standards for smart contracts and application-level functionality. They focus on creating interoperable and standardized frameworks for developers building on Ethereum.  
-- *ERCs enable compatibility between decentralized applications (DApps), tokens, and wallets.  
-- **Examples**:  
-   - **EIP-20**: Defines the **ERC-20** standard for fungible tokens.  
-   - **EIP-721**: Establishes the **ERC-721** standard for non-fungible tokens (NFTs).  
-   - **EIP-1155**: A multi-token standard supporting both fungible and non-fungible tokens.
+- ERCs define standards for smart contracts and application-level functionality. 
+- They focus on creating interoperable and standardized frameworks for developers building on Ethereum.  
+- ERCs enable compatibility between decentralized applications (DApps), tokens, and wallets.  
+- **Examples**: EIP-20, EIP-721, EIP-1155
 
 ### **Meta EIPs**
-- Meta EIPs propose processes, guidelines, or improvements to the EIP framework itself, rather than changes to the Ethereum protocol. These EIPs outline governance mechanisms, workflows, and procedures for handling proposals.  
+- Meta EIPs propose processes, guidelines, or improvements to the EIP framework itself, rather than changes to the Ethereum protocol. 
 - Meta EIPs help streamline the Ethereum development process and enhance the efficiency of decentralized governance.  
-- **Example**: Guidelines for EIP submissions and approvals, ensuring transparency and inclusivity in the process.
+- **Example**: Guidelines for EIP submissions and approvals.
 
 ### **Informational EIPs**
-- Informational EIPs provide general guidelines, recommendations, or best practices for the Ethereum community. They do not propose changes to the protocol but serve as resources for developers and stakeholders.  
+- Informational EIPs provide general guidelines, recommendations, or best practices for the Ethereum community. 
+- They don't propose changes to the protocol but serve as resources for developers and stakeholders.  
 - Informational EIPs act as educational tools to improve development practices.  
 - **Example**: Documentation on efficient smart contract development or gas optimization strategies.
 
@@ -35,7 +33,7 @@ Ethereum Improvement Proposals are categorized based on their scope and impact
 
 ## **EIP Lifecycle**
 
-The lifecycle of an EIP ensures that every proposal undergoes rigorous evaluation and consensus-building before implementation. The stages are as follows:
+The lifecycle of an EIP ensures that every proposal undergoes rigorous evaluation and consensus-building before implementation.
 
 ### 1. **Draft**:  
    - The proposal is written and submitted as a draft.  
@@ -81,7 +79,7 @@ The lifecycle of an EIP ensures that every proposal undergoes rigorous evaluatio
 
 ---
 
-## **Role of EIPs in Ethereum Development**
+## **Role of EIPs**
 
 EIPs are fundamental to Ethereum's decentralized governance and continuous innovation.
 

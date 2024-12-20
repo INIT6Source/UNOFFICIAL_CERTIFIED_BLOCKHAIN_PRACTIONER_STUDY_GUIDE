@@ -21,38 +21,36 @@ Ethereum test networks are parallel blockchain environments that mimic the main 
 
 ### **Goerli Testnet**
 - A cross-client proof-of-authority (PoA) testnet supporting multiple Ethereum clients.  
-- **Features**: Stable, reliable, and widely supported.  
-- **Use Cases**: General smart contract and DApp testing.  
-- **Getting Test Ether**: Use Goerli faucets.
+- Stable, reliable, and widely supported.  
+- General smart contract and DApp testing.  
+- Uses Goerli faucets.
 
 ### **Sepolia Testnet**
 - A newer testnet designed for lightweight efficiency.  
-- **Features**: Faster block times and lower resource requirements.  
-- **Use Cases**: Quick testing cycles and simpler workflows.  
-- **Getting Test Ether**: Faucets and community resources.
+- Faster block times and lower resource requirements.  
+- Quick testing cycles and simpler workflows.  
+- Uses faucets and community resources.
 
 ### **Ropsten Testnet**
-- One of the oldest and most widely used Ethereum test networks, employing a proof-of-work (PoW) consensus mechanism similar to the original Ethereum mainnet before the Merge.  
-- **Use Cases**: Projects requiring a test environment that closely resembles the traditional PoW mainnet setup.  
-- **Getting Test Ether**:  
-  - Ropsten faucet services like [faucet.ropsten.be](http://faucet.ropsten.be/)  
-  - Requests on social media platforms like Twitter.
+- One of the oldest and most widely used test networks, employing a proof-of-work (PoW).  
+- Projects requiring a test environment that closely resemble PoW mainnet setup.  
+- Uses Ropsten faucet services like [faucet.ropsten.be](http://faucet.ropsten.be/) and social media.
 
 ### **Kovan Testnet**
 - A test network utilizing the proof-of-authority (PoA) consensus mechanism, resulting in faster block times.  
-- **Use Cases**: Ideal for rapid iterations and testing scenarios that require swift transaction finality.  
-- **Getting Test Ether**: Use the Kovan Faucet.
+- Ideal for rapid iterations and testing scenarios that require swift transaction finality.  
+- Uses the Kovan Faucet.
 
 ### **Rinkeby Testnet**
 - A stable and reliable PoA test network known for swift block times and consistent performance.  
-- **Use Cases**: Commonly used by developers for DApp testing and contract deployment in a steady environment.  
-- **Getting Test Ether**: Use the Rinkeby Faucet.
+- Commonly used by developers for DApp testing and contract deployment in a steady environment.  
+- Uses the Rinkeby Faucet.
 
 ---
 
 ## **Private Nodes like Ganache**
 
-- In addition to public test networks, developers can use private Ethereum nodes like Ganache for local testing and development.   
+- Developers can use private Ethereum nodes like Ganache for local testing and development.   
 - Provides a fully controllable local blockchain environment.  
 - Enables simulation of various scenarios, control over block times, and thorough testing of contract logic without external dependencies.
 

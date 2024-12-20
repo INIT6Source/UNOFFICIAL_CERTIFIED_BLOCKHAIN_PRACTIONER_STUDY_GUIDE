@@ -15,8 +15,7 @@ Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) is part o
 ### **Proof of Stake (PoS)**  
 - Validators are chosen to propose and validate blocks based on the amount of cryptocurrency they hold and commit as a stake.  
 - Deterministic, with the probability of selection proportional to the stake size.  
-- Energy-efficient.
-- Supports higher transaction throughput.
+- Energy-efficient, supporting higher transaction throughput.
 - Reduces the need for expensive mining hardware.
 
 ---
@@ -24,21 +23,22 @@ Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) is part o
 ## **Pros and Cons of Proof of Stake**
 
 ### **Pros**
-- PoS significantly reduces energy consumption, making it more environmentally friendly and cost-effective.  
+- Significantly reduces energy consumption, making it more environmentally friendly and cost-effective.  
 - Higher transaction throughput and lower latency enhance Ethereum's usability for DApps and DeFi.  
 - Validators are incentivized to act honestly through their stake, which can be forfeited (slashed) in cases of malicious behavior.
 
 ### **Cons**
-- *Large stakeholders may gain disproportionate influence, leading to potential centralization.  
+- Large stakeholders may gain disproportionate influence, leading to potential centralization.  
 - The minimum stake of 32 ETH creates a high barrier to entry for smaller participants.  
-- *Validators face financial risks for downtime, double-signing blocks, or other malicious activities.
+- Validators face financial risks for downtime, double-signing blocks, or other malicious activities.
 
 ---
 
 ## **Key Concepts in Ethereum’s PoS**
 
 ### **Staking Requirement**  
-- Validators must commit a minimum stake of 32 ETH to participate in block validation. This ensures that validators have a vested interest in maintaining the network's security and integrity.
+- Validators must commit a minimum stake of 32 ETH to participate in block validation. 
+- This ensures that validators have a vested interest in maintaining the network's security and integrity.
 
 ### **Validator Rewards**  
 - Validators earn rewards in ETH for proposing and validating blocks.  
@@ -64,7 +64,7 @@ Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) is part o
 
 ## **Transition to PoS: The Merge**
 
-- Ethereum's transition to PoS, commonly referred to as "The Merge," replaced mining with staking, integrating the Beacon Chain as the consensus layer. This milestone marked the end of PoW for Ethereum.  
+Ethereum's transition to PoS, commonly referred to as "The Merge," replaced mining with staking, integrating the Beacon Chain as the consensus layer. This milestone marked the end of PoW for Ethereum.  
 
 ### **Key Outcomes**
 - PoS reduces Ethereum’s energy consumption by over 99%, addressing environmental concerns.  

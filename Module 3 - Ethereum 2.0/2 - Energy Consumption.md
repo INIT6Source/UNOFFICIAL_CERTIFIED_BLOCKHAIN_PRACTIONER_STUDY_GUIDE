@@ -1,15 +1,11 @@
 # Energy Consumption
 
-Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) with Ethereum 2.0 significantly reduces the network's energy consumption. This shift addresses environmental concerns associated with the high energy usage of PoW mining.
+Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) significantly reduces the network's energy consumption. This shift addresses environmental concerns associated with the high energy usage of PoW mining.
 
 ---
 
 ## **Energy Consumption in Proof of Work**
-
-### **Mining Process**
-  Miners use computational power to solve complex mathematical puzzles, requiring specialized hardware (ASICs, GPUs) that consume significant electricity.  
-
-### **Environmental Impact**
+  - Miners use computational power to solve complex mathematical puzzles, requiring specialized hardware (ASICs, GPUs) that consume significant electricity.  
   - High energy consumption contributes to a larger carbon footprint.  
   - Often reliant on non-renewable energy sources, leading to sustainability concerns.
 
@@ -17,10 +13,7 @@ Ethereum's transition from Proof of Work (PoW) to Proof of Stake (PoS) with Ethe
 
 ## **Reduction in Proof of Stake**
 
-### **Elimination of Mining** 
 - Validators replace miners and are selected based on the amount of ETH they stake.  
-
-### **Energy Efficiency** 
   - Validators require minimal computational resources.  
   - Ethereum's energy consumption is reduced by approximately **99.95%** following the transition to PoS.  
 
